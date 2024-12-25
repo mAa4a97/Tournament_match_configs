@@ -1,0 +1,50 @@
+{
+  "matchid": 1,
+  "team1": {
+    "name": "M1Z",
+    "players": {
+      "76561198325367389": "Ancient",
+      "76561199000769021": "Freesies",
+      "76561198150394201": "klausyk",
+      "76561198169903662": "Styx",
+      "76561197999726876": "qwant"
+    }
+  },
+  "team2": {
+    "name": "Sissi State Punks",
+    "players": {
+      "76561198034826115": "tahsiN",
+      "76561198176229901": "fadE",
+      "76561198173063479": "CHANKY",
+      "76561197992268324": "farmaG",
+      "76561197972055442": "J0hnny"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198181140679": "[ADMIN] Muinez",
+	  "76561198121226139": "[ADMIN] Baronus",
+	  "76561198171639490": "[OBS] Spec1",
+	  "76561198150926776": "[OBS] Spec2",
+	  "76561198000304967": "[OBS] Spec3",
+	  "76561197995993220": "[OBS] Spec4",
+	  "76561197995895918": "[OBS] Spec5",
+	  "76561198391380068": "[OBS] Spec6",
+	  "76561199036276883": "[OBS] Spec7",
+	  "76561198367886994": "[TournOps] mAa4a"	  
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "hostname": "UC3 | Group A | Opener #1",
+    "mp_friendlyfire": "1"
+  }
+}

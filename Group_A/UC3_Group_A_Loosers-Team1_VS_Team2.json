@@ -1,0 +1,35 @@
+{
+  "matchid": 4,
+  "team1": {
+
+  },
+  "team2": {
+
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_mirage",
+    "de_overpass",
+    "de_inferno"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198181140679": "[ADMIN] Muinez",
+	  "76561198121226139": "[ADMIN] Baronus",
+	  "": "(PANDA) Spec1",
+	  "": "(PANDA) Spec2"
+	  "": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "hostname": "UC3 | Group A | Loosers",
+    "mp_friendlyfire": "1"
+  }
+}
