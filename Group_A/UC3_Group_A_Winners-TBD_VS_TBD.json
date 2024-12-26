@@ -11,16 +11,7 @@
     }
   },
   "team2": {
-    "name": "BRUTE",
-    "players": {
-      "76561198824836539": "v4NO",
-      "76561198119075865": "realzen",
-      "76561198022419512": "m0nsterr",
-      "76561198799260043": "SiKO",
-      "76561198362698732": "w4rden",
-      "76561199112319728": "patrenzo"
-    }
-	"name": "Anonymo",
+	  "name": "Anonymo",
     "players": {
       "76561198191011338": "Nami",
       "76561198031539050": "Enzo",
@@ -31,7 +22,7 @@
   },
   "num_maps": 1,
   "maplist": [
-    "de_inferno"
+    "de_ancient"
   ],
   "map_sides": [
     "knife"
