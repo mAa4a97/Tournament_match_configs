@@ -1,29 +1,28 @@
 {
-  "matchid": 2,
+  "matchid": 1,
   "team1": {
-    "name": "MOUZ NXT",
+    "name": "Hedensted X SERA",
     "players": {
-      "76561198178386506": "Jorko",
-      "76561199082011736": "blick",
-      "76561198998266210": "xelex",
-      "76561198326021100": "Cliqq",
-      "76561198377256168": "Joey"
+      "76561198372424898": "Andree",
+      "76561198079764052": "mertz",
+      "76561198182440297": "nellozz",
+      "76561198081044569": "lund",
+      "76561199006612211": "jekuz1h"
     }
   },
   "team2": {
-    "name": "SAGA Esports",
+    "name": "Rhyno Youngsters",
     "players": {
-      "76561198157342008": "ADHD",
-      "76561198046591509": "WZRD",
-      "76561198011173296": "vctr",
-      "76561197972990451": "DOM",
-      "76561198520703658": "mozar7",
-      "76561199004790545": "brnr"
+      "76561197995409231": "BeiranZz",
+      "76561198281952018": "hK",
+      "76561198194984463": "Ruy2k",
+      "76561198190567997": "ThozoR",
+      "76561198314421726": "nesto"
     }
   },
   "num_maps": 1,
   "maplist": [
-    "de_dust2"
+    "de_mirage"
   ],
   "map_sides": [
     "knife"
@@ -45,7 +44,7 @@
   "clinch_series": true,
   "players_per_team": 5,
   "cvars": {
-    "hostname": "UC4 | Group A | Opener #2",
+    "hostname": "UC4 | Group A | Opener #1",
     "mp_friendlyfire": "1"
   }
 }
