@@ -1,0 +1,51 @@
+{
+    "matchid": 9,
+    "team1": {
+      "name": "mCon esports",
+      "players": {
+        "76561198847172478": "smiley",
+        "76561198094212984": "Jex",
+        "76561198150340869": "Wumbo",
+        "76561197963756806": "G1DO",
+        "76561198119154550": "v1N"
+      }
+    },
+    "team2": {
+      "name": "M1Z",
+      "players": {
+        "76561198325367389": "Ancient",
+        "76561199000769021": "Free$ies",
+        "76561198150394201": "klausyk",
+        "76561198058434088": "mAXeLL-",
+        "76561198403861510": "pat_u"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_anubis"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198181140679": "[ADMIN] Muinez",
+          "76561198121226139": "[ADMIN] Baronus",
+          "76561198171639490": "[OBS] Spec1",
+          "76561198150926776": "[OBS] Spec2",
+          "76561198000304967": "[OBS] Spec3",
+          "76561197995993220": "[OBS] Spec4",
+          "76561197995895918": "[OBS] Spec5",
+          "76561198391380068": "[OBS] Spec6",
+          "76561199036276883": "[OBS] Spec7",
+          "76561198053473455": "[ADMIN] gube",
+          "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "hostname": "UC4 | Group B | Opener #1",
+      "mp_friendlyfire": "1"
+    }
+  }
