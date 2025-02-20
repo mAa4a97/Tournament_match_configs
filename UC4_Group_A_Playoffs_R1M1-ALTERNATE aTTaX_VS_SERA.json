@@ -1,0 +1,58 @@
+{
+  "matchid": 11,
+  "team1": {
+    "name": "ALTERNATE aTTaX",
+    "players": {
+      "76561198059205260": "Cl34v3rs",
+      "76561198323206002": "Askan",
+      "76561198147660206": "OneLion",
+      "76561198017827676": "hayanh",
+      "76561198219956167": "FoG",
+    "76561198121730322": "Spexy"
+    }
+  },
+  "team2": {
+    "name": "Hedensted X SERA",
+    "players": {
+      "76561198372424898": "Andree",
+      "76561198079764052": "mertz",
+      "76561198182440297": "nellozz",
+      "76561198081044569": "lund",
+      "76561199006612211": "jekuz1h",
+      "76561198162613497": "PagE",
+      "76561197997480650": "TENZKI",
+      "76561198174527843": "z_nan"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_anubis",
+    "de_anubis",
+    "de_anubis"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198181140679": "[ADMIN] Muinez",
+        "76561198121226139": "[ADMIN] Baronus",
+        "76561198171639490": "[OBS] Spec1",
+        "76561198150926776": "[OBS] Spec2",
+        "76561198000304967": "[OBS] Spec3",
+        "76561197995993220": "[OBS] Spec4",
+        "76561197995895918": "[OBS] Spec5",
+        "76561198391380068": "[OBS] Spec6",
+        "76561199036276883": "[OBS] Spec7",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "hostname": "UC4 | Playoffs | Match #1",
+    "mp_friendlyfire": "1"
+  }
+}
