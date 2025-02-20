@@ -26,11 +26,13 @@
   },
   "num_maps": 3,
   "maplist": [
+    "de_inferno",
     "de_anubis",
-    "de_anubis",
-    "de_anubis"
+    "de_ancient"
   ],
   "map_sides": [
+    "team1_t",
+    "team2_t",
     "knife"
   ],
   "spectators": {
