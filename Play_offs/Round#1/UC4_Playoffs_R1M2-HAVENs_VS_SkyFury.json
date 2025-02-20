@@ -22,13 +22,13 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_inferno",
-    "de_anubis",
-    "de_ancient"
+    "de_dust2",
+    "de_train",
+    "de_nuke"
   ],
   "map_sides": [
-    "team1_ct",
-    "team2_ct",
+    "team1_t",
+    "team2_t",
     "knife"
   ],
   "spectators": {
