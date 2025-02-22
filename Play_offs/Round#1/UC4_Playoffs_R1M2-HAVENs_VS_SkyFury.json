@@ -1,16 +1,6 @@
 {
-  "matchid": 12,
+  "matchid": 16,
   "team1": {
-    "name": "HAVENs",
-    "players": {
-      "76561198006612426": "cgk",
-      "76561198057797475": "yaankz",
-      "76561199201717350": "proxi",
-      "76561198313371437": "v1trage",
-      "76561198248037544": "ma1rel"
-    }
-  },
-  "team2": {
     "name": "SkyFury",
     "players": {
       "76561198253891911": "shield",
@@ -21,9 +11,19 @@
       "76561197963755458": "remorse"
     }
   },
+  "team2": {
+    "name": "Cyber Empire",
+    "players": {
+      "76561198190258051": "макарw0w",
+      "76561198151111947": "ASTR",
+      "76561198010082464": "whiskas",
+      "76561198273767120": "HexoQ",
+      "76561199305069806": "meowpop",
+    }
+  },
   "num_maps": 3,
   "maplist": [
-    "de_dust2",
+    "de_ancient",
     "de_train",
     "de_nuke"
   ],
