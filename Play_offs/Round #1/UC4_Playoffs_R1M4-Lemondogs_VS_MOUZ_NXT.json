@@ -23,12 +23,12 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_mirage",
     "de_dust2",
-    "de_ancient"
+    "de_train",
+    "de_nuke"
   ],
   "map_sides": [
-    "team1_t",
+    "team1_ct",
     "team2_t",
     "knife"
   ],
@@ -44,7 +44,6 @@
         "76561198391380068": "[OBS] Spec6",
         "76561199036276883": "[OBS] Spec7",
         "76561198053473455": "[ADMIN] gube",
-        "76561199757271608": "[ADMIN] Partner",
         "76561199188776460": "[OBS] mAa4a",
         "76561198367886994": "[TournOps] mAa4a"      
     }
