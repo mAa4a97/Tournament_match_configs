@@ -22,12 +22,12 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_inferno",
+    "de_ancient",
     "de_anubis",
-    "de_ancient"
+    "de_mirage"
   ],
   "map_sides": [
-    "team1_t",
+    "team1_ct",
     "team2_t",
     "knife"
   ],
