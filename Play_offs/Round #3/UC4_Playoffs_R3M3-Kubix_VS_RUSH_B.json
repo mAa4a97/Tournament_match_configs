@@ -1,0 +1,57 @@
+{
+    "matchid": 21,
+    "team1": {
+      "name": "Kubix Esports",
+      "players": {
+        "76561198204442632": "tripey",
+        "76561198324713828": "Caleyy",
+        "76561198339479432": "ammar",
+        "76561198862233341": "v1w",
+        "76561198141288112": "gejmzilla"
+      }
+    },
+    "team2": {
+        "name": "RUSH B",
+        "players": {
+          "76561198002372151": "kinqie",
+          "76561198145768818": "Kiro",
+          "76561199095171343": "executor",
+          "76561198237043662": "z1Nny",
+          "76561199173322766": "tex1y"
+        }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_mirage",
+      "de_train",
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198181140679": "[ADMIN] Muinez",
+          "76561198121226139": "[ADMIN] Baronus",
+          "76561198171639490": "[OBS] Spec1",
+          "76561198150926776": "[OBS] Spec2",
+          "76561198000304967": "[OBS] Spec3",
+          "76561197995993220": "[OBS] Spec4",
+          "76561197995895918": "[OBS] Spec5",
+          "76561198391380068": "[OBS] Spec6",
+          "76561199036276883": "[OBS] Spec7",
+          "76561198053473455": "[ADMIN] gube",
+          "76561199188776460": "[OBS] mAa4a",
+          "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "hostname": "UC4 | Quaters | R2M3",
+      "mp_friendlyfire": "1"
+    }
+  }
+  
