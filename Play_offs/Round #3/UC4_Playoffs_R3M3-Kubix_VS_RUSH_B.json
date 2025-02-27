@@ -23,12 +23,12 @@
     "num_maps": 3,
     "maplist": [
       "de_mirage",
-      "de_train",
-      "de_dust2"
+      "de_inferno",
+      "de_train"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_ct",
+      "team1_t",
+      "team2_t",
       "knife"
     ],
     "spectators": {
