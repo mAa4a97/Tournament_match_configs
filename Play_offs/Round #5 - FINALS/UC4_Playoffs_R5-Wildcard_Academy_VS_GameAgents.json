@@ -1,0 +1,56 @@
+{
+  "matchid": 25,
+  "team1": {
+    "name": "Wildcard Academy",
+    "players": {
+      "76561198256799794": "T4gg3D",
+      "76561199004328083": "Wonder",
+      "76561198343056868": "sSen",
+      "76561198138034396": "fr3nd",
+      "76561198798935520": "TMKj"
+    }
+  },
+  "team2": {
+    "name": "GameAgents",
+    "players": {
+      "76561198806854565": "POLO",
+      "76561198242885242": "swiz",
+      "76561198015912869": "virtuoso",
+      "76561198245925350": "Qlocuu",
+      "76561198098387757": "nestee"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_nuke",
+    "de_mirage",
+    "de_ancient"
+  ],
+  "map_sides": [
+    "team1_t",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198181140679": "[ADMIN] Muinez",
+        "76561198121226139": "[ADMIN] Baronus",
+        "76561198171639490": "[OBS] Spec1",
+        "76561198150926776": "[OBS] Spec2",
+        "76561198000304967": "[OBS] Spec3",
+        "76561197995993220": "[OBS] Spec4",
+        "76561197995895918": "[OBS] Spec5",
+        "76561198391380068": "[OBS] Spec6",
+        "76561199036276883": "[OBS] Spec7",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "hostname": "UC4 | Grand Finals | R5",
+    "mp_friendlyfire": "1"
+  }
+}
