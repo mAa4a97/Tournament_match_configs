@@ -20,15 +20,11 @@
         "76561198098387757": "Player0"
       }
     },
-    "num_maps": 3,
+    "num_maps": 1,
     "maplist": [
-      "de_nuke",
-      "de_ancient",
-      "de_mirage"
+      "de_dust2"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_ct",
       "knife"
     ],
     "spectators": {
