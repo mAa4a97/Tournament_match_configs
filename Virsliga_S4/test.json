@@ -1,0 +1,49 @@
+{
+    "matchid": 0,
+    "team1": {
+      "name": "Team Alpha",
+      "players": {
+        "76561198367886994": "[ADMIN] mAa4a",
+        "76561198215765908": "Player2",
+        "76561198388875820": "Player3",
+        "76561198167125683": "Player4",
+        "76561198169630290": "Player5"
+      }
+    },
+    "team2": {
+      "name": "Team Beta",
+      "players": {
+        "76561198053473455": "[TournOps] gube",
+        "76561198242885242": "Player7",
+        "76561198015912869": "Player8",
+        "76561198245925350": "Player9",
+        "76561198098387757": "Player0"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_ancient",
+      "de_mirage"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561197995895918": "[ADMIN] .laacis",
+        "76561198391380068": "[ADMIN] k3firs",
+        "76561199036276883": "[SUPPORT] DOII",
+        "76561199188776460": "[OBS] mAa4a"     
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "hostname": "E-Sporta virslīga | TESTS | R0M0",
+      "mp_friendlyfire": "1"
+    }
+  }
+  
