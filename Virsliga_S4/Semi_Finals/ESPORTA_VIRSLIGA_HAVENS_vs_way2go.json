@@ -1,0 +1,54 @@
+{
+    "matchid": 1,
+    "team1": {
+      "name": "HAVENs",
+      "players": {
+        "76561198248037544": "mairel",
+        "76561198057797475": "yaankz",
+        "76561198313371437": "v1trage",
+        "76561198057555443": "keni",
+        "76561198273383635": "rabbit"
+      }
+    },
+    "team2": {
+      "name": "way2go",
+      "players": {
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561198875641022": "Brens",
+        "76561198828749489": "Zan1S"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_ancient",
+      "de_mirage"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+        "players": {
+            "76561197995895918": "[REMOTE ADMIN] .laacis",
+            "76561198391380068": "[LOCAL ADMIN] k3firs",
+            "76561199036276883": "[LOCAL ADMIN] DOII",
+            "76561198053473455": "[TournOps] gube",
+            "76561199188776460": "[OBS] mAa4a",
+            "76561198367886994": "[REMOTE ADMIN] mAa4a"      
+          }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+        "mp_spec_swapplayersides": "1",
+        "tv_delay": "0",
+        "tv_delay1": "0",
+        "hostname": "E-Sporta virslīga | Pusfināli | R1M1",
+        "mp_friendlyfire": "1"
+      }
+  }
+  

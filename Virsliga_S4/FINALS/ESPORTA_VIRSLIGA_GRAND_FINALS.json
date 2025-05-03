@@ -1,0 +1,54 @@
+{
+    "matchid": 3,
+    "team1": {
+      "name": "hypewrld",
+      "players": {
+        "76561198367886994": "Player1",
+        "76561198215765908": "Player2",
+        "76561198388875820": "Player3",
+        "76561198167125683": "Player4",
+        "76561198169630290": "Player5"
+      }
+    },
+    "team2": {
+      "name": "CyberEmpire",
+      "players": {
+        "76561198806854565": "Player6",
+        "76561198242885242": "Player7",
+        "76561198015912869": "Player8",
+        "76561198245925350": "Player9",
+        "76561198098387757": "Player0"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_ancient",
+      "de_mirage"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561197995895918": "[REMOTE ADMIN] .laacis",
+        "76561198391380068": "[LOCAL ADMIN] k3firs",
+        "76561199036276883": "[LOCAL ADMIN] DOII",
+        "76561198053473455": "[TournOps] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[REMOTE ADMIN] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "tv_delay": "0",
+      "tv_delay1": "0",
+      "hostname": "E-Sporta virslīga | FINĀLI | R2M1",
+      "mp_friendlyfire": "1"
+    }
+  }
+  
