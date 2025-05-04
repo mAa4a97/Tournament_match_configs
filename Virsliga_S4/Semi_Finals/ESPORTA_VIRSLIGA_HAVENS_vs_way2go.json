@@ -23,11 +23,11 @@
     "num_maps": 3,
     "maplist": [
       "de_nuke",
-      "de_ancient",
-      "de_mirage"
+      "de_train",
+      "de_dust2"
     ],
     "map_sides": [
-      "team1_ct",
+      "team1_t",
       "team2_ct",
       "knife"
     ],
