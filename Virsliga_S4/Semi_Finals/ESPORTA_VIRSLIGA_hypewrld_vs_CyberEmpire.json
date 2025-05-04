@@ -22,13 +22,13 @@
     },
     "num_maps": 3,
     "maplist": [
-      "de_nuke",
+      "de_anubis",
       "de_ancient",
       "de_mirage"
     ],
     "map_sides": [
       "team1_ct",
-      "team2_ct",
+      "team2_t",
       "knife"
     ],
     "spectators": {
