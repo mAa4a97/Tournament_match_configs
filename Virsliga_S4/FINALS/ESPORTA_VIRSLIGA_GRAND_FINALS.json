@@ -11,23 +11,23 @@
       }
     },
     "team2": {
-      "name": "CyberEmpire",
+      "name": "Cyber Empire",
       "players": {
-        "76561198806854565": "Player6",
-        "76561198242885242": "Player7",
-        "76561198015912869": "Player8",
-        "76561198245925350": "Player9",
-        "76561198098387757": "Player0"
+        "76561198190258051": "makaroff",
+        "76561198151111947": "ASTR",
+        "76561198010082464": "whiskas",
+        "76561198273767120": "HexoQ",
+        "76561199305069806": "meowpop"
       }
     },
     "num_maps": 3,
     "maplist": [
-      "de_nuke",
       "de_ancient",
-      "de_mirage"
+      "de_mirage",
+      "de_nuke"
     ],
     "map_sides": [
-      "team1_ct",
+      "team1_t",
       "team2_ct",
       "knife"
     ],
@@ -44,7 +44,8 @@
     "clinch_series": true,
     "players_per_team": 5,
     "cvars": {
-      "mp_spec_swapplayersides": "1",
+      "sv_deltaticks_enforce": "0",
+      "mp_spec_swapplayersides": "0",
       "tv_delay": "0",
       "tv_delay1": "0",
       "hostname": "E-Sporta virslīga | FINĀLI | R2M1",
