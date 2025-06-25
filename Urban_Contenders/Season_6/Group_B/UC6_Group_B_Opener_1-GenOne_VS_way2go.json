@@ -1,0 +1,50 @@
+{
+    "matchid": 6,
+    "team1": {
+      "name": "GenOne",
+      "players": {
+        "76561198036925092": "cHeuuuuk",
+        "76561198286405075": "Tarkky",
+        "76561198161194875": "Chucky",
+        "76561198274686035": "Brooxsy",
+        "76561198058882272": "SLIE9000"
+      }
+    },
+    "team2": {
+      "name": "way2go",
+      "players": {
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561199145161335": "m1kketye",
+        "76561198273383635": "rabbit"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_mirage"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PANDA] Spec1",
+        "76561198150926776": "[PANDA] Spec2",
+        "76561198000304967": "[PANDA] Spec3",
+        "76561197995993220": "[PANDA] Spec4",
+        "76561197995895918": "[PANDA] Spec5",
+        "76561198391380068": "[PANDA] Spec6",
+        "76561199036276883": "[PANDA] Spec7",
+        "76561198053473455": "[ADMIN] gube",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC6 | Group B | Opener #1",
+      "mp_friendlyfire": "1"
+    }
+  }

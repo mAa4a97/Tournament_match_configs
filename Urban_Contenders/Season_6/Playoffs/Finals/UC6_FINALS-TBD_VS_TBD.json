@@ -1,0 +1,54 @@
+{
+    "matchid": 13,
+    "team1": {
+      "name": "Hedensted X SERA",
+      "players": {
+        "76561198372424898": "Andree",
+        "76561198079764052": "mertz",
+        "76561198182440297": "nellozz",
+        "76561198081044569": "lund",
+        "76561199006612211": "jekuz1h"
+      }
+    },
+    "team2": {
+      "name": "Rhyno Youngsters",
+      "players": {
+        "76561197995409231": "BeiranZz",
+        "76561198281952018": "hK",
+        "76561198194984463": "Ruy2k",
+        "76561198190567997": "ThozoR",
+        "76561198314421726": "nesto"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_train",
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_t",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PANDA] Spec1",
+        "76561198150926776": "[PANDA] Spec2",
+        "76561198000304967": "[PANDA] Spec3",
+        "76561197995993220": "[PANDA] Spec4",
+        "76561197995895918": "[PANDA] Spec5",
+        "76561198391380068": "[PANDA] Spec6",
+        "76561199036276883": "[PANDA] Spec7",
+        "76561198053473455": "[ADMIN] gube",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC6 | Finals",
+      "mp_friendlyfire": "1"
+    }
+  }

@@ -1,0 +1,50 @@
+{
+    "matchid": 1,
+    "team1": {
+      "name": "Lithuanian Wolves",
+      "players": {
+        "76561198445092039": "PoKe",
+        "76561198831555354": "REL",
+        "76561198422853814": "Berzius",
+        "76561198330557669": "Misterio",
+        "76561197997455392": "Gopster"
+      }
+    },
+    "team2": {
+      "name": "XI Esports",
+      "players": {
+        "76561198018474632": "Sinzey",
+        "76561199018118161": "stesso",
+        "76561198314821803": "Skejs",
+        "76561198367443733": "Few",
+        "76561199202092290": "Kragh"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_mirage"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PANDA] Spec1",
+        "76561198150926776": "[PANDA] Spec2",
+        "76561198000304967": "[PANDA] Spec3",
+        "76561197995993220": "[PANDA] Spec4",
+        "76561197995895918": "[PANDA] Spec5",
+        "76561198391380068": "[PANDA] Spec6",
+        "76561199036276883": "[PANDA] Spec7",
+        "76561198053473455": "[ADMIN] gube",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC6 | Group A | Opener #1",
+      "mp_friendlyfire": "1"
+    }
+  }
