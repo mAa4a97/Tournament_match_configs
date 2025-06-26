@@ -1,28 +1,29 @@
 {
-    "matchid": 5,
+    "matchid": 4,
     "team1": {
-      "name": "Hedensted X SERA",
+      "name": "Bad News Eagles",
       "players": {
-        "76561198372424898": "Andree",
-        "76561198079764052": "mertz",
-        "76561198182440297": "nellozz",
-        "76561198081044569": "lund",
-        "76561199006612211": "jekuz1h"
+        "76561198172837021": "rigoN",
+        "76561198152378187": "SENER1",
+        "76561198095793955": "juanflatroo",
+        "76561198165327895": "sinnopsyy",
+        "76561198234835452": "gxx-"
       }
     },
     "team2": {
-      "name": "Rhyno Youngsters",
+      "name": "Lithuanian Wolves",
       "players": {
-        "76561197995409231": "BeiranZz",
-        "76561198281952018": "hK",
-        "76561198194984463": "Ruy2k",
-        "76561198190567997": "ThozoR",
-        "76561198314421726": "nesto"
+        "76561198445092039": "PoKe",
+        "76561198831555354": "REL",
+        "76561198422853814": "Berzius",
+        "76561198330557669": "Misterio",
+        "76561197997455392": "Gopster",
+        "76561198336211730": "Uzman"
       }
     },
     "num_maps": 1,
     "maplist": [
-      "de_mirage"
+      "de_ancient"
     ],
     "map_sides": [
       "knife"
@@ -43,7 +44,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC6 | Group A | Decider Match",
+      "hostname": "UC6 | Group A | Winners Match",
       "mp_friendlyfire": "1"
     }
   }

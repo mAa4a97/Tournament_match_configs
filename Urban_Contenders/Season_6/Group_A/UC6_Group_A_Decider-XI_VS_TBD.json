@@ -1,13 +1,13 @@
 {
-    "matchid": 4,
+    "matchid": 5,
     "team1": {
-      "name": "Hedensted X SERA",
+      "name": "XI Esports",
       "players": {
-        "76561198372424898": "Andree",
-        "76561198079764052": "mertz",
-        "76561198182440297": "nellozz",
-        "76561198081044569": "lund",
-        "76561199006612211": "jekuz1h"
+        "76561198018474632": "Sinzey",
+        "76561199018118161": "stesso",
+        "76561198314821803": "Skejs",
+        "76561198367443733": "Few",
+        "76561199202092290": "Kragh"
       }
     },
     "team2": {
@@ -43,7 +43,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC6 | Group A | Winners Match",
+      "hostname": "UC6 | Group A | Decider Match",
       "mp_friendlyfire": "1"
     }
   }
