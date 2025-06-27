@@ -1,28 +1,32 @@
 {
-    "matchid": 10,
+    "matchid": 9,
     "team1": {
-      "name": "Hedensted X SERA",
+      "name": "Heroic Academy",
       "players": {
-        "76561198372424898": "Andree",
-        "76561198079764052": "mertz",
-        "76561198182440297": "nellozz",
-        "76561198081044569": "lund",
-        "76561199006612211": "jekuz1h"
+        "76561198100855323": "Scr0b",
+        "76561197965966302": "Dengzoe",
+        "76561198431418464": "anber",
+        "76561198891375572": "fnl",
+        "76561199237946991": "St0m4k",
+        "76561197999584343": "doto"
       }
     },
     "team2": {
-      "name": "Rhyno Youngsters",
+      "name": "way2go",
       "players": {
-        "76561197995409231": "BeiranZz",
-        "76561198281952018": "hK",
-        "76561198194984463": "Ruy2k",
-        "76561198190567997": "ThozoR",
-        "76561198314421726": "nesto"
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561199145161335": "m1kketye",
+        "76561198273383635": "rabbit",
+        "76561198875641022": "Brens",
+        "76561199077249605": "nisker",
+        "76561198423866204": "s1lrak"
       }
     },
     "num_maps": 1,
     "maplist": [
-      "de_mirage"
+      "de_anubis"
     ],
     "map_sides": [
       "knife"
@@ -43,7 +47,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC6 | Group B | Decider Match",
+      "hostname": "UC6 | Group B | Winners Match",
       "mp_friendlyfire": "1"
     }
   }

@@ -1,14 +1,13 @@
 {
-    "matchid": 9,
+    "matchid": 10,
     "team1": {
-      "name": "Heroic Academy",
+      "name": "GenOne",
       "players": {
-        "76561198100855323": "Scr0b",
-        "76561197965966302": "Dengzoe",
-        "76561198431418464": "anber",
-        "76561198891375572": "fnl",
-        "76561199237946991": "St0m4k",
-        "76561197999584343": "doto"
+        "76561198036925092": "cHeuuuuk",
+        "76561198286405075": "Tarkky",
+        "76561198161194875": "Chucky",
+        "76561198274686035": "Brooxsy",
+        "76561198058882272": "SLIE9000"
       }
     },
     "team2": {
@@ -44,7 +43,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC6 | Group B | Winners Match",
+      "hostname": "UC6 | Group B | Decider Match",
       "mp_friendlyfire": "1"
     }
   }
