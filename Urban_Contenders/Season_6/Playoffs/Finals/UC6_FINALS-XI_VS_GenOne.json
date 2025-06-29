@@ -1,5 +1,5 @@
 {
-    "matchid": 13,
+    "matchid": 14,
     "team1": {
       "name": "XI Esports",
       "players": {
@@ -20,15 +20,11 @@
         "76561198058882272": "SLIE9000"
       }
     },
-    "num_maps": 3,
+    "num_maps": 1,
     "maplist": [
-      "de_inferno",
-      "de_ancient",
       "de_nuke"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_ct",
       "knife"
     ],
     "spectators": {
