@@ -1,22 +1,30 @@
 {
     "matchid": 1,
     "team1": {
-      "name": "Team_Azeron"
+      "name": "Team_Azeron",
+      "players": {
+        "76561198871427587": "PoKe",
+        "76561199074529732": "REL"
+      }
     },
     "team2": {
-      "name": "Team_Kleverr"
+      "name": "Team_Kleverr",
+      "players": {
+        "76561198263883252": "PoKe",
+        "76561198053473455": "REL"
+      }
     },
     "num_maps": 3,
     "maplist": [
-      "de_nuke",
+      "de_ancient",
       "de_inferno",
       "de_overpass"
     ],
     "map_sides": [
-        "team1_ct",
-        "team2_ct",
-        "knife"
-      ],
+      "team1_ct",
+      "team2_t",
+      "knife"
+    ],
     "spectators": {
       "players": {
         "76561198171639490": "[PARTNER] Spec1",
