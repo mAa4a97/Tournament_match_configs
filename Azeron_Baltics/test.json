@@ -34,6 +34,7 @@
     "cvars": {
       "mp_spec_swapplayersides": "1",
       "hostname": "Azeron Baltics | Test Match #1",
-      "mp_friendlyfire": "1"
+      "mp_friendlyfire": "1",
+      "mp_maxrounds": "8"
     }
   }
