@@ -1,0 +1,49 @@
+{
+    "matchid": 3,
+    "team1": {
+      "name": "drosselfamily",
+      "players": {
+        "76561199348978277": "harizmapower",
+        "76561199046381311": "slarethef",
+        "76561198160186592": "lapbI4",
+        "76561198263484624": "Renesqu",
+        "76561199024181178": "ScringE"
+      }
+    },
+    "team2": {
+      "name": "M1Z",
+      "players": {
+        "76561198325367389": "Ancient",
+        "76561198244915438": "neaQ",
+        "76561198238813650": "kapa",
+        "76561198169903662": "Styx",
+        "76561199000769021": "Freesies"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_mirage",
+      "de_nuke",
+      "de_inferno"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561199870724685": "[OBS] LowSkilll",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "Azeron Balitcs Superfinals | Quater finals | Match 3",
+      "mp_friendlyfire": "1"
+    }
+  }

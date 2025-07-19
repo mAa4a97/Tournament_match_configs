@@ -1,0 +1,49 @@
+{
+    "matchid": 2,
+    "team1": {
+      "name": "GENESIS",
+      "players": {
+        "76561198044158601": "Cuba",
+        "76561198006920671": "Kirikuõpetaja",
+        "76561198323595816": "rikzz",
+        "76561198173539842": "Nunnn",
+        "76561198208533464": "M4rdik"
+      }
+    },
+    "team2": {
+      "name": "way2go",
+      "players": {
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561198875641022": "Brens",
+        "76561199145161335": "m1kketye"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_mirage",
+      "de_nuke",
+      "de_inferno"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561199870724685": "[OBS] LowSkilll",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "Azeron Balitcs Superfinals | Quater finals | Match 2",
+      "mp_friendlyfire": "1"
+    }
+  }
