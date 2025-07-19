@@ -22,10 +22,10 @@
     },
     "num_maps": 1,
     "maplist": [
-      "de_dust2"
+      "de_nuke"
     ],
     "map_sides": [
-      "team1_t"
+      "knife"
     ],
     "spectators": {
       "players": {
