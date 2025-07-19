@@ -28,7 +28,7 @@
     ],
     "map_sides": [
       "team1_ct",
-      "team2_t",
+      "team2_ct",
       "knife"
     ],
     "spectators": {
