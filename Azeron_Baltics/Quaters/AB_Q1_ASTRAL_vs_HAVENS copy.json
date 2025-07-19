@@ -1,0 +1,45 @@
+{
+    "matchid": 1,
+    "team1": {
+      "name": "ASTRAL",
+      "players": {
+        "76561198379204570": "Neqy",
+        "76561198151111947": "ASTR",
+        "76561199204613550": "rickangel",
+        "76561198422707218": "RaY5ive",
+        "76561199305069806": "meowpop"
+      }
+    }, 
+    "team2": {
+      "name": "HAVENs",
+      "players": {
+        "76561198407533718": "Zortexx",
+        "76561198057797475": "yaankz",
+        "76561198396684216": "WIPSKY",
+        "76561198057555443": "keni",
+        "76561198273383635": "rabbit"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_t"
+    ],
+    "spectators": {
+      "players": {
+        "76561199870724685": "[OBS] LowSkilll",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "Azeron Balitcs Superfinals | Quater finals | Match 1",
+      "mp_friendlyfire": "1"
+    }
+  }
