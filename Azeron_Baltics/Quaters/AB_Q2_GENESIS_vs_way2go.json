@@ -23,8 +23,8 @@
     "num_maps": 3,
     "maplist": [
       "de_mirage",
-      "de_nuke",
-      "de_inferno"
+      "de_overpass",
+      "de_dust2"
     ],
     "map_sides": [
       "team1_ct",
