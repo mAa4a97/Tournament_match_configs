@@ -1,0 +1,49 @@
+{
+    "matchid": 6,
+    "team1": {
+      "name": "hypewrld",
+      "players": {
+        "76561198212318784": "discplex",
+        "76561198007542410": "PrelideN",
+        "76561198213027407": "ChipaaN",
+        "76561198225120272": "Frip",
+        "76561198006612426": "cgk"
+      }
+    },
+    "team2": {
+      "name": "M1Z",
+      "players": {
+        "76561198325367389": "Ancient",
+        "76561198244915438": "neaQ",
+        "76561198238813650": "kapa",
+        "76561198169903662": "Styx",
+        "76561199000769021": "Freesies"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_dust2",
+      "de_mirage",
+      "de_overpass"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561199870724685": "[OBS] LowSkilll",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "Azeron Balitcs Superfinals | Semi-Finals | Match 6",
+      "mp_friendlyfire": "1"
+    }
+  }
