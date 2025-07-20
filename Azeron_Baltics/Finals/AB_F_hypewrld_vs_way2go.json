@@ -11,20 +11,20 @@
       }
     }, 
     "team2": {
-      "name": "ASTRAL",
+      "name": "hypewrld",
       "players": {
-        "76561198379204570": "Neqy",
-        "76561198151111947": "ASTR",
-        "76561199204613550": "rickangel",
-        "76561198422707218": "RaY5ive",
-        "76561199305069806": "meowpop"
+        "76561198212318784": "discplex",
+        "76561198007542410": "PrelideN",
+        "76561198213027407": "ChipaaN",
+        "76561198225120272": "Frip",
+        "76561198006612426": "cgk"
       }
     },
     "num_maps": 3,
     "maplist": [
       "de_mirage",
-      "de_ancient",
-      "de_dust2"
+      "de_dust2",
+      "de_inferno"
     ],
     "map_sides": [
       "team1_t",
@@ -43,7 +43,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "Azeron Balitcs Superfinals | Grand Finals | Match 8",
+      "hostname": "Azeron Balitcs Superfinals | Grand Finals | Match 7",
       "mp_friendlyfire": "1"
     }
   }
