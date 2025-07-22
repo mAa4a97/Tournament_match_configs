@@ -1,0 +1,50 @@
+{
+    "matchid": 2,
+    "team1": {
+      "name": "aimclub",
+      "players": {
+        "76561198173063479": "CHANKY",
+        "76561198139620346": "zewts",
+        "76561198811581392": "RoberttMP",
+        "76561198333158396": "awks",
+        "76561198057187429": "KunKKa",
+        "76561197964249216": "Ed1m"
+      }
+    },
+    "team2": {
+      "name": "ASTRAL Esports",
+      "players": {
+        "76561198379204570": "Neqy",
+        "76561198151111947": "ASTR",
+        "76561199204613550": "rickangel",
+        "76561198422707218": "RaY5ive",
+        "76561199305069806": "meowpop"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_inferno"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PARTNER] Spec1",
+        "76561198150926776": "[PARTNER] Spec2",
+        "76561198000304967": "[PARTNER] Spec3",
+        "76561197995895918": "[PARTNER] Spec4",
+        "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC7 | Group A | Opener #2",
+      "mp_friendlyfire": "1"
+    }
+  }
