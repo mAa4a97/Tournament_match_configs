@@ -1,24 +1,24 @@
 {
-    "matchid": 5,
+    "matchid": 4,
     "team1": {
-      "name": "XI Esports",
-      "players": {
-        "76561198018474632": "Sinzey",
-        "76561199018118161": "stesso",
-        "76561198314821803": "Skejs",
-        "76561198367443733": "Few",
-        "76561199202092290": "Kragh"
-      }
-    },
-    "team2": {
       "name": "Lithuanian Wolves",
       "players": {
         "76561198445092039": "PoKe",
-        "76561198831555354": "REL",
+        "76561198116133779": "OniX",
         "76561198422853814": "Berzius",
+        "76561198336211730": "Uzman",
         "76561198330557669": "Misterio",
-        "76561197997455392": "Gopster",
-        "76561198336211730": "Uzman"
+        "76561198046427751": "tooizera"
+      }
+    },
+    "team2": {
+      "name": "ASTRAL Esports",
+      "players": {
+        "76561198379204570": "Neqy",
+        "76561198151111947": "ASTR",
+        "76561199204613550": "rickangel",
+        "76561198422707218": "RaY5ive",
+        "76561199305069806": "meowpop"
       }
     },
     "num_maps": 1,
@@ -44,7 +44,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC7 | Group A | Decider Match",
+      "hostname": "UC7 | Group A | Winners Match",
       "mp_friendlyfire": "1"
     }
   }
