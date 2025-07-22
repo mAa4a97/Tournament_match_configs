@@ -1,24 +1,23 @@
 {
-    "matchid": 4,
+    "matchid": 3,
     "team1": {
-      "name": "Bad News Eagles",
+      "name": "NXT",
       "players": {
-        "76561198172837021": "rigoN",
-        "76561198152378187": "SENER1",
-        "76561198095793955": "juanflatroo",
-        "76561198165327895": "sinnopsyy",
-        "76561198234835452": "gxx-"
+        "76561198088906330": "ARTIST",
+        "76561198096708443": "Extinct",
+        "76561198190928622": "Vacancy",
+        "76561198138332241": "Rezst",
+        "76561198165543185": "Tree60"
       }
     },
     "team2": {
-      "name": "Lithuanian Wolves",
+      "name": "GENESIS",
       "players": {
-        "76561198445092039": "PoKe",
-        "76561198831555354": "REL",
-        "76561198422853814": "Berzius",
-        "76561198330557669": "Misterio",
-        "76561197997455392": "Gopster",
-        "76561198336211730": "Uzman"
+        "76561198006920671": "Kirikuõpetaja",
+        "76561198173539842": "Nunnn",
+        "76561198208533464": "M4rdik",
+        "76561198044158601": "Cuba",
+        "76561198323595816": "rikzz"
       }
     },
     "num_maps": 1,
@@ -44,7 +43,7 @@
     "players_per_team": 5,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "UC7 | Group A | Winners Match",
+      "hostname": "UC7 | Group A | Elimination Match",
       "mp_friendlyfire": "1"
     }
   }
