@@ -1,0 +1,50 @@
+{
+    "matchid": 9,
+    "team1": {
+      "name": "Lithuanian Wolves",
+      "players": {
+        "76561198445092039": "PoKe",
+        "76561198116133779": "OniX",
+        "76561198422853814": "Berzius",
+        "76561198336211730": "Uzman",
+        "76561198330557669": "Misterio",
+        "76561198046427751": "tooizera"
+      }
+    },
+    "team2": {
+      "name": "ASTRAL Esports",
+      "players": {
+        "76561198379204570": "Neqy",
+        "76561198151111947": "ASTR",
+        "76561199204613550": "rickangel",
+        "76561198422707218": "RaY5ive",
+        "76561199305069806": "meowpop"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_nuke"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PARTNER] Spec1",
+        "76561198150926776": "[PARTNER] Spec2",
+        "76561198000304967": "[PARTNER] Spec3",
+        "76561197995895918": "[PARTNER] Spec4",
+        "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC7 | Group B | Winners Match",
+      "mp_friendlyfire": "1"
+    }
+  }

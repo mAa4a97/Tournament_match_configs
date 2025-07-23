@@ -1,0 +1,53 @@
+{
+    "matchid": 7,
+    "team1": {
+      "name": "hyperspirit",
+      "players": {
+        "76561198173063479": "CHANKY",
+        "76561198139620346": "zewts",
+        "76561198811581392": "RoberttMP",
+        "76561198333158396": "awks",
+        "76561198057187429": "KunKKa",
+        "76561197964249216": "Ed1m"
+      }
+    },
+    "team2": {
+      "name": "way2go",
+      "players": {
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561199145161335": "m1kketye",
+        "76561198273383635": "rabbit",
+        "76561198875641022": "Brens",
+        "76561199077249605": "nisker",
+        "76561198423866204": "s1lrak"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_ancient"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PARTNER] Spec1",
+        "76561198150926776": "[PARTNER] Spec2",
+        "76561198000304967": "[PARTNER] Spec3",
+        "76561197995895918": "[PARTNER] Spec4",
+        "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC7 | Group B | Opener #2",
+      "mp_friendlyfire": "1"
+    }
+  }

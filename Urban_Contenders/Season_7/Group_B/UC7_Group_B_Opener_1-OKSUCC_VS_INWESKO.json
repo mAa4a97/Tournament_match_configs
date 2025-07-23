@@ -1,0 +1,50 @@
+{
+    "matchid": 6,
+    "team1": {
+      "name": "OKSUCC",
+      "players": {
+        "76561198190351467": "swaggy",
+        "76561199026289014": "oskvr",
+        "76561198109906607": "GodkU",
+        "76561198351830066": "jeyN",
+        "76561198142181829": "shateri",
+        "76561198885612013": "Dimitry"
+      }
+    },
+    "team2": {
+      "name": "INWESKO",
+      "players": {
+        "76561198429117501": "kaido73",
+        "76561198190258051": "makaroff",
+        "76561198183100557": "Dabok",
+        "76561198079708508": "Xadoxg0d",
+        "76561198069567550": "4X1s"
+      }
+    },
+    "num_maps": 1,
+    "maplist": [
+      "de_nuke"
+    ],
+    "map_sides": [
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PARTNER] Spec1",
+        "76561198150926776": "[PARTNER] Spec2",
+        "76561198000304967": "[PARTNER] Spec3",
+        "76561197995895918": "[PARTNER] Spec4",
+        "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a", 
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC7 | Group B | Opener #1",
+      "mp_friendlyfire": "1"
+    }
+  }
