@@ -1,0 +1,57 @@
+{
+    "matchid": 4,
+    "team1": {
+      "name": "way2go",
+      "players": {
+        "76561198821534373": "rud",
+        "76561198396836822": "Yamero~",
+        "76561198870256366": "flairr",
+        "76561199145161335": "m1kketye",
+        "76561198273383635": "rabbit",
+        "76561198875641022": "Brens",
+        "76561199077249605": "nisker",
+        "76561198423866204": "s1lrak"
+      }
+    },
+    "team2": {
+      "name": "Lithuanian Wolves",
+      "players": {
+        "76561198445092039": "PoKe",
+        "76561198116133779": "OniX",
+        "76561198422853814": "Berzius",
+        "76561198336211730": "Uzman",
+        "76561198330557669": "Misterio",
+        "76561198046427751": "tooizera"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_dust2",
+      "de_mirage",
+      "de_overpass"
+    ],
+    "map_sides": [
+      "team1_ct",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+      "players": {
+        "76561198171639490": "[PARTNER] Spec1",
+        "76561198150926776": "[PARTNER] Spec2",
+        "76561198000304967": "[PARTNER] Spec3",
+        "76561197995895918": "[PARTNER] Spec4",
+        "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[ADMIN] gube",
+        "76561199188776460": "[OBS] mAa4a",
+        "76561198367886994": "[TournOps] mAa4a"      
+      }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+      "mp_spec_swapplayersides": "1",
+      "hostname": "UC7 | Play-offs | Semi-Finals #2",
+      "mp_friendlyfire": "1"
+    }
+  }
