@@ -27,13 +27,13 @@
     },
     "num_maps": 3,
     "maplist": [
-      "de_dust2",
       "de_mirage",
-      "de_overpass"
+      "de_nuke",
+      "de_inferno"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_ct",
+      "team1_t",
+      "team2_t",
       "knife"
     ],
     "spectators": {
