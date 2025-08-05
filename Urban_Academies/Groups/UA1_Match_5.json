@@ -1,24 +1,26 @@
 {
-    "matchid": 371,
+    "matchid": 5,
     "team1": {
       "name": "Team_Urban",
       "players": {
+        "76561199145161335": "m1kket",
         "76561198053473455": "ayriks",
-        "76561198094432720": "depzs",
-        "76561199006504952": "gachox"
+        "76561198920856840": "grizz",
+        "76561198821534373": "rud"
       }
     },
     "team2": {
       "name": "Team_Academies",
       "players": {
         "76561198273383635": "rabbit",
-        "76561198094432720": "depzs",
-        "76561198213027407": "ChipaaN"
+        "76561199077249605": "nisker",
+        "76561198967850653": "estrello",
+        "76561198846229416": "w0lt"
       }
     },
     "num_maps": 3,
     "maplist": [
-      "de_train,",
+      "de_ancient",
       "de_inferno",
       "de_overpass"
     ],
@@ -34,6 +36,7 @@
         "76561198000304967": "[PARTNER] Spec3",
         "76561197995895918": "[PARTNER] Spec4",
         "76561199036276883": "[PARTNER] Spec5",
+        "76561198053473455": "[UC] SMM",
         "76561199188776460": "[OBS] mAa4a",
         "76561198367886994": "[TournOps] mAa4a"      
       }
@@ -42,7 +45,7 @@
     "players_per_team": 2,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "Urban Acadmies | Test Match #2",
+      "hostname": "Urban Acadmies #1 | GROUPS | Match #5",
       "mp_friendlyfire": "1",
       "mp_maxrounds": "8"
     }
