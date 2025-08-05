@@ -22,15 +22,11 @@
         "76561197963478402": "addi"
       }
     },
-    "num_maps": 3,
+    "num_maps": 1,
     "maplist": [
-      "de_ancient",
-      "de_inferno",
-      "de_overpass"
+      "de_dust2"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_t",
       "knife"
     ],
     "spectators": {
