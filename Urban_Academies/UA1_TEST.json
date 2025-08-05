@@ -1,20 +1,20 @@
 {
-    "matchid": 372,
+    "matchid": 373,
     "team1": {
-      "name": "Team_Urban",
+      "name": "CS2-1",
       "players": {
         "76561198053473455": "ayriks",
         "76561198094432720": "depzs",
-        "76561199006504952": "gachox",
-        "76561198967850653": "estrello"
+        "76561199006504952": "gachox"
       }
     },
     "team2": {
-      "name": "Team_Academies",
+      "name": "CS2-2",
       "players": {
         "76561198273383635": "rabbit",
         "76561198094432720": "depzs",
-        "76561198213027407": "ChipaaN"
+        "76561198213027407": "ChipaaN",
+        "76561198967850653": "estrello"
       }
     },
     "num_maps": 3,
@@ -43,7 +43,7 @@
     "players_per_team": 2,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "Urban Acadmies | Test Match #2",
+      "hostname": "Urban Acadmies | Test Match #3",
       "mp_friendlyfire": "1",
       "mp_maxrounds": "8"
     }
