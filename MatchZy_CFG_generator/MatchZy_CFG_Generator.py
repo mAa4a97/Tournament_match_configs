@@ -225,7 +225,7 @@ class MatchConfigApp:
         }
 
         if not config["cvars"]["hostname"]:
-            config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.team1.get_team_name()} vs {self.team2.get_team_name()}"
+            config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.stage_name()} | {self.match_id.get()}"
 
         save_path = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[["JSON Files", "*.json"]])
         if save_path:

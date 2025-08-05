@@ -1,34 +1,34 @@
 {
     "matchid": 6,
     "team1": {
-      "name": "Fiend Academy",
-      "players": {
-        "76561199145161335": "m1kket",
-        "76561198053473455": "ayriks",
-        "76561198920856840": "grizz",
-        "76561198821534373": "rud"
-      }
-    },
-    "team2": {
-      "name": "VP.Future",
-      "players": {
-        "76561198273383635": "rabbit",
-        "76561199077249605": "nisker",
-        "76561198967850653": "estrello",
-        "76561198846229416": "w0lt"
-      }
-    },
-    "num_maps": 3,
-    "maplist": [
-      "de_ancient",
-      "de_inferno",
-      "de_overpass"
-    ],
-    "map_sides": [
-      "team1_ct",
-      "team2_t",
-      "knife"
-    ],
+        "name": "Fiend Academy",
+        "players": {
+          "76561198207848336": "choiv7",
+          "76561198961562294": "zecco",
+          "76561198158368986": "kdaN",
+          "76561198124656704": "andr1x",
+          "76561198269073418": "RiiL3",
+          "76561198259435197": "superflik"
+        }
+      },
+      "team2": {
+        "name": "VP.Future",
+        "players": {
+          "76561199083461507": "m0NZ0R",
+          "76561199441393810": "Ekzo",
+          "76561198428442405": "overpriced",
+          "76561199228548850": "turbo",
+          "76561198033831919": "rokilan",
+          "76561198141667219": "lasfas"
+        }
+      },
+      "num_maps": 1,
+      "maplist": [
+        "de_dust2"
+      ],
+      "map_sides": [
+        "knife"
+      ],
     "spectators": {
       "players": {
         "76561198171639490": "[PARTNER] Spec1",
