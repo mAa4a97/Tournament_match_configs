@@ -1,21 +1,25 @@
 {
-    "matchid": 6,
+    "matchid": 5,
     "team1": {
-      "name": "Team_Urban",
+      "name": "EC BANGA NEXTGEN",
       "players": {
-        "76561199145161335": "m1kket",
-        "76561198053473455": "ayriks",
-        "76561198920856840": "grizz",
-        "76561198821534373": "rud"
+        "76561198870256366": "flairr",
+        "76561198273383635": "rabbit",
+        "76561199016281257": "yupiterS",
+        "76561198967850653": "ESTRELLO",
+        "76561199006504952": "GachoDix",
+        "76561198920856840": "grizz"
       }
     },
     "team2": {
-      "name": "Team_Academies",
+      "name": "Sashi Academy",
       "players": {
-        "76561198273383635": "rabbit",
-        "76561199077249605": "nisker",
-        "76561198967850653": "estrello",
-        "76561198846229416": "w0lt"
+        "76561198088559740": "Damsi",
+        "76561199223906381": "bl4ze",
+        "76561198104965481": "Niflox",
+        "76561198447521195": "Patchi",
+        "76561198370212771": "rosen",
+        "76561197963478402": "addi"
       }
     },
     "num_maps": 3,
@@ -45,8 +49,7 @@
     "players_per_team": 2,
     "cvars": {
       "mp_spec_swapplayersides": "1",
-      "hostname": "Urban Acadmies #1 | GROUPS | Match #6",
-      "mp_friendlyfire": "1",
-      "mp_maxrounds": "8"
+      "hostname": "Urban Acadmies #1 | GROUPS | Match #5",
+      "mp_friendlyfire": "1"
     }
   }

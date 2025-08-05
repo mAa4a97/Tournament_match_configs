@@ -1,5 +1,5 @@
 {
-    "matchid": 8,
+    "matchid": 7,
     "team1": {
       "name": "Team_Urban",
       "players": {
@@ -46,7 +46,6 @@
     "cvars": {
       "mp_spec_swapplayersides": "1",
       "hostname": "Urban Acadmies #1 | GROUPS | Match #7",
-      "mp_friendlyfire": "1",
-      "mp_maxrounds": "8"
+      "mp_friendlyfire": "1"
     }
   }
