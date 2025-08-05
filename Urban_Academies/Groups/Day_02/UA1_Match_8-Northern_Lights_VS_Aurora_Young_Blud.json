@@ -1,32 +1,31 @@
 {
     "matchid": 8,
     "team1": {
-      "name": "Team_Urban",
+      "name": "Northen Lights",
       "players": {
-        "76561199145161335": "m1kket",
-        "76561198053473455": "ayriks",
-        "76561198920856840": "grizz",
-        "76561198821534373": "rud"
+        "76561198047673130": "meinz",
+        "76561199004328083": "Wonder",
+        "76561198839194083": "Axelen",
+        "76561198072691348": "doobs",
+        "76561199009567996": "lindeen",
+        "76561198439702876": "Sn0w"
       }
     },
     "team2": {
-      "name": "Team_Academies",
+      "name": "Aurora Young Blud",
       "players": {
-        "76561198273383635": "rabbit",
-        "76561199077249605": "nisker",
-        "76561198967850653": "estrello",
-        "76561198846229416": "w0lt"
+        "76561199485654630": "starmie",
+        "76561198042384924": "Ayri",
+        "76561198872323455": "r1pa4",
+        "76561199440982027": "meetyoxanaji",
+        "76561199233825002": "k1nco"
       }
     },
-    "num_maps": 3,
+    "num_maps": 1,
     "maplist": [
-      "de_ancient",
-      "de_inferno",
-      "de_overpass"
+      "de_mirage"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_t",
       "knife"
     ],
     "spectators": {
