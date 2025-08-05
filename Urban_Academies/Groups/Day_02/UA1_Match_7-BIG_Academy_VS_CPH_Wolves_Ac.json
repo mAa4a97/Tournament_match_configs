@@ -1,32 +1,30 @@
 {
     "matchid": 7,
     "team1": {
-      "name": "Team_Urban",
+      "name": "BIG Academy",
       "players": {
-        "76561199145161335": "m1kket",
-        "76561198053473455": "ayriks",
-        "76561198920856840": "grizz",
-        "76561198821534373": "rud"
+        "76561198219516767": "FreeZe",
+        "76561198178801031": "prosus",
+        "76561198888800765": "w1dow",
+        "76561198820845612": "NaYz",
+        "76561199002096113": "xonn1k"
       }
     },
     "team2": {
-      "name": "Team_Academies",
+      "name": "CPH Wolves Academy",
       "players": {
-        "76561198273383635": "rabbit",
-        "76561199077249605": "nisker",
-        "76561198967850653": "estrello",
-        "76561198846229416": "w0lt"
+        "76561198181044439": "Olaie",
+        "76561199383709615": "dixxi",
+        "76561198844629976": "Clockzi",
+        "76561198148840902": "Itachje",
+        "76561199128938615": "Mad1nho"
       }
     },
-    "num_maps": 3,
+    "num_maps": 1,
     "maplist": [
-      "de_ancient",
-      "de_inferno",
-      "de_overpass"
+      "de_mirage"
     ],
     "map_sides": [
-      "team1_ct",
-      "team2_t",
       "knife"
     ],
     "spectators": {

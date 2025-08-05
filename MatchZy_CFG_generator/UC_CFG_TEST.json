@@ -1,30 +1,28 @@
 {
-  "matchid": 6,
+  "matchid": 7,
   "team1": {
-    "name": "Fiend Academy",
+    "name": "BIG Academy",
     "players": {
-      "76561198207848336": "choiv7",
-      "76561198961562294": "zecco",
-      "76561198158368986": "kdaN",
-      "76561198124656704": "andr1x",
-      "76561198269073418": "RiiL3",
-      "76561198259435197": "superflik"
+      "76561198219516767": "FreeZe",
+      "76561198178801031": "prosus",
+      "76561198888800765": "w1dow",
+      "76561198820845612": "NaYz",
+      "76561199002096113": "xonn1k"
     }
   },
   "team2": {
-    "name": "VP.Future",
+    "name": "CPH Wolves Academy",
     "players": {
-      "76561199083461507": "m0NZ0R",
-      "76561199441393810": "Ekzo",
-      "76561198428442405": "overpriced",
-      "76561199228548850": "turbo",
-      "76561198033831919": "rokilan",
-      "76561198141667219": "lasfas"
+      "76561198181044439": "Olaie",
+      "76561199383709615": "dixxi",
+      "76561198844629976": "Clockzi",
+      "76561198148840902": "Itachje",
+      "76561199128938615": "Mad1nho"
     }
   },
   "num_maps": 1,
   "maplist": [
-    "de_dust2"
+    "de_mirage"
   ],
   "map_sides": [
     "knife"
@@ -37,10 +35,10 @@
     }
   },
   "clinch_series": true,
-  "players_per_team": 6,
+  "players_per_team": 5,
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Urban Acadmies #1 | Fiend Academy vs VP.Future",
+    "hostname": "Urban Acadmies #1 | BIG Academy vs CPH Wolves Academy",
     "mp_friendlyfire": "1"
   }
 }
