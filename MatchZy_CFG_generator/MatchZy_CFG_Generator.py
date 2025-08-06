@@ -14,10 +14,14 @@ DEFAULT_CVARS = {
 }
 
 TEAM_FOLDER = "teams"
+SPECTATOR_FILE = "spectators.json"
 os.makedirs(TEAM_FOLDER, exist_ok=True)
 
 def is_valid_steamid(steamid):
     return bool(re.fullmatch(r"\d{17}", steamid))
+
+def sanitize_filename(name):
+    return re.sub(r"[^\w\-]", "_", name.strip())
 
 class TeamManager:
     def __init__(self, frame, team_num):
@@ -111,14 +115,12 @@ class MatchConfigApp:
         self.main_frame = ttk.Frame(root, padding=10)
         self.main_frame.pack(fill="both", expand=True)
 
-        # Teams
         self.team1 = TeamManager(ttk.LabelFrame(self.main_frame, text="Team 1"), 1)
         self.team1.frame.grid(row=0, column=0, padx=10, pady=10, sticky="n")
 
         self.team2 = TeamManager(ttk.LabelFrame(self.main_frame, text="Team 2"), 2)
         self.team2.frame.grid(row=0, column=1, padx=10, pady=10, sticky="n")
 
-        # Match Settings
         self.settings_frame = ttk.LabelFrame(self.main_frame, text="Match Settings")
         self.settings_frame.grid(row=0, column=2, padx=10, pady=10, sticky="n")
 
@@ -140,7 +142,6 @@ class MatchConfigApp:
         ttk.Label(self.settings_frame, text="Match Type").pack()
         ttk.Combobox(self.settings_frame, textvariable=self.match_type, values=["bo1", "bo3"]).pack()
 
-        # Map List and Sides
         self.map_frame = ttk.LabelFrame(self.main_frame, text="Maps and Sides")
         self.map_frame.grid(row=1, column=0, columnspan=3, sticky="ew", padx=10, pady=10)
 
@@ -155,7 +156,6 @@ class MatchConfigApp:
             ttk.Combobox(row, textvariable=side_var, values=SIDE_OPTIONS).pack(side="left")
             self.map_vars.append((map_var, side_var))
 
-        # Spectators
         self.spec_frame = ttk.LabelFrame(self.main_frame, text="Spectators")
         self.spec_frame.grid(row=2, column=0, columnspan=3, sticky="ew", padx=10, pady=10)
         self.spectators = {}
@@ -169,8 +169,9 @@ class MatchConfigApp:
         self.spec_list = tk.Listbox(self.spec_frame)
         self.spec_list.pack(fill="x")
         ttk.Button(self.spec_frame, text="Remove Selected", command=self.remove_spectator).pack()
+        ttk.Button(self.spec_frame, text="Save Spectators", command=self.save_spectators).pack()
+        ttk.Button(self.spec_frame, text="Load Spectators", command=self.load_spectators).pack()
 
-        # CVARs
         self.cvar_frame = ttk.LabelFrame(self.main_frame, text="Server CVARs")
         self.cvar_frame.grid(row=3, column=0, columnspan=3, sticky="ew", padx=10, pady=10)
         self.cvar_vars = {key: tk.StringVar(value=value) for key, value in DEFAULT_CVARS.items()}
@@ -210,6 +211,20 @@ class MatchConfigApp:
         for sid, nick in self.spectators.items():
             self.spec_list.insert(tk.END, f"{nick} ({sid})")
 
+    def save_spectators(self):
+        with open(SPECTATOR_FILE, "w") as f:
+            json.dump(self.spectators, f, indent=2)
+        messagebox.showinfo("Saved", f"Spectators saved to {SPECTATOR_FILE}")
+
+    def load_spectators(self):
+        if os.path.exists(SPECTATOR_FILE):
+            with open(SPECTATOR_FILE, "r") as f:
+                self.spectators = json.load(f)
+                self.update_spec_list()
+            messagebox.showinfo("Loaded", f"Spectators loaded from {SPECTATOR_FILE}")
+        else:
+            messagebox.showwarning("Not Found", f"{SPECTATOR_FILE} not found")
+
     def generate_config(self):
         config = {
             "matchid": self.match_id.get(),
@@ -225,9 +240,14 @@ class MatchConfigApp:
         }
 
         if not config["cvars"]["hostname"]:
-            config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.stage_name.get()} | {self.match_id.get()}"
+            config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.match_id.get()} | {self.team1.get_team_name()} vs {self.team2.get_team_name()}"
 
-        save_path = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[["JSON Files", "*.json"]])
+        sanitized_tournament = sanitize_filename(self.tournament_name.get())
+        sanitized_team1 = sanitize_filename(self.team1.get_team_name())
+        sanitized_team2 = sanitize_filename(self.team2.get_team_name())
+
+        default_filename = f"UA1_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
+        save_path = filedialog.asksaveasfilename(defaultextension=".json", initialfile=default_filename, filetypes=[["JSON Files", "*.json"]])
         if save_path:
             with open(save_path, "w") as f:
                 json.dump(config, f, indent=2)
