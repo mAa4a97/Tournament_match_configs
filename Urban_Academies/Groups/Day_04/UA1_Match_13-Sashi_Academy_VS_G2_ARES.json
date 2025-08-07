@@ -1,0 +1,52 @@
+{
+  "matchid": 13,
+  "team1": {
+    "name": "Sashi Academy",
+    "players": {
+      "76561198088559740": "Damsi",
+      "76561199223906381": "bl4ze",
+      "76561198104965481": "Niflox",
+      "76561198447521195": "Patchi",
+      "76561198370212771": "rosen",
+      "76561197963478402": "addi"
+    }
+  },
+  "team2": {
+    "name": "G2 ARES",
+    "players": {
+      "76561198175704447": "fNk",
+      "76561199059559714": "hitori",
+      "76561198190685310": "tAk",
+      "76561198125068631": "kl1m",
+      "76561199217021405": "Nidoriaa",
+      "76561198042092011": "LETN1"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 6,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 13 | Sashi Academy vs G2 ARES",
+    "mp_friendlyfire": "1"
+  }
+}
