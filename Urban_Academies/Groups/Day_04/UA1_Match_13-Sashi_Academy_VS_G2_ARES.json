@@ -24,7 +24,7 @@
   },
   "num_maps": 1,
   "maplist": [
-    "de_inferno"
+    "de_dust2"
   ],
   "map_sides": [
     "knife"
@@ -46,7 +46,7 @@
   "players_per_team": 6,
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Urban Academies #1 | 13 | Sashi Academy vs G2 ARES",
+    "hostname": "Urban Academies #1 | GROUPS | Match 13 | Sashi Academy vs G2 ARES",
     "mp_friendlyfire": "1"
   }
 }
