@@ -1,0 +1,52 @@
+{
+  "matchid": 22,
+  "team1": {
+    "name": "VP.Future",
+    "players": {
+      "76561199083461507": "m0NZ0R",
+      "76561199441393810": "Ekzo",
+      "76561198428442405": "overpriced",
+      "76561199228548850": "turbo",
+      "76561198033831919": "rokilan",
+      "76561198141667219": "lasfas"
+    }
+  },
+  "team2": {
+    "name": "EC BANGA NEXTGEN",
+    "players": {
+      "76561198870256366": "flairr",
+      "76561198273383635": "rabbit",
+      "76561199016281257": "yupiterS",
+      "76561198967850653": "ESTRELLO",
+      "76561199006504952": "GachoDix",
+      "76561198920856840": "grizz"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 22 | VP.Future vs EC BANGA NEXTGEN",
+    "mp_friendlyfire": "1"
+  }
+}

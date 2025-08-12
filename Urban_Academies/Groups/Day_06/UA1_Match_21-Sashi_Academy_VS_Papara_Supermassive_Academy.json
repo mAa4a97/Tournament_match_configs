@@ -1,0 +1,53 @@
+{
+  "matchid": 21,
+  "team1": {
+    "name": "Sashi Academy",
+    "players": {
+      "76561198088559740": "Damsi",
+      "76561199223906381": "bl4ze",
+      "76561198104965481": "Niflox",
+      "76561198447521195": "Patchi",
+      "76561198370212771": "rosen",
+      "76561197963478402": "addi"
+    }
+  },
+  "team2": {
+    "name": "Papara Supermassive Academy",
+    "players": {
+      "76561198877800161": "sh1pz09",
+      "76561198858597163": "Steep",
+      "76561198856830947": "oyesil",
+      "76561199837007531": "j4hex",
+      "76561198248808610": "zemix",
+      "76561198124405065": "Logicmannnnn",
+      "76561199004956721": "xeZq"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 21 | Sashi Academy vs Papara Supermassive Academy",
+    "mp_friendlyfire": "1"
+  }
+}
