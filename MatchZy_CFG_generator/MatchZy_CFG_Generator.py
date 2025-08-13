@@ -235,7 +235,7 @@ class MatchConfigApp:
             "map_sides": [s.get() for _, s in self.map_vars if s.get()],
             "spectators": {"players": self.spectators},
             "clinch_series": True,
-            "players_per_team": len(self.team1.players),
+            "players_per_team": "5",
             "cvars": {k: v.get() for k, v in self.cvar_vars.items()}
         }
 
