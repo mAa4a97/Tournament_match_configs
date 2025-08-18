@@ -17,6 +17,8 @@ TEAM_FOLDER = "teams"
 SPECTATOR_FILE = "spectators.json"
 os.makedirs(TEAM_FOLDER, exist_ok=True)
 
+last_save_dir = os.getcwd()  # Track last used folder
+
 def is_valid_steamid(steamid):
     return bool(re.fullmatch(r"\d{17}", steamid))
 
@@ -181,7 +183,8 @@ class MatchConfigApp:
             ttk.Label(row, text=key, width=25).pack(side="left")
             ttk.Entry(row, textvariable=var).pack(side="left", fill="x", expand=True)
 
-        ttk.Button(self.main_frame, text="Generate Config", command=self.generate_config).grid(row=4, column=0, columnspan=3, pady=20)
+        ttk.Button(self.main_frame, text="Generate Config", command=self.generate_config).grid(row=4, column=0, pady=20)
+        ttk.Button(self.main_frame, text="Load Match Config", command=self.load_match_config).grid(row=4, column=1, pady=20)
 
     def add_spectator(self):
         sid = self.spec_id.get().strip()
@@ -226,6 +229,7 @@ class MatchConfigApp:
             messagebox.showwarning("Not Found", f"{SPECTATOR_FILE} not found")
 
     def generate_config(self):
+        global last_save_dir
         config = {
             "matchid": self.match_id.get(),
             "team1": self.team1.get_team_data(),
@@ -236,8 +240,14 @@ class MatchConfigApp:
             "spectators": {"players": self.spectators},
             "clinch_series": True,
             "players_per_team": "5",
-            "cvars": {k: v.get() for k, v in self.cvar_vars.items()}
+            "cvars": {k: v.get() for k, v in self.cvar_vars.items()},
+            "tournament": self.tournament_name.get(),
+            "stage": self.stage_name.get()
         }
+
+        # Ensure tournament and stage also exist inside cvars for reload consistency
+        config["cvars"]["tournament"] = self.tournament_name.get()
+        config["cvars"]["stage"] = self.stage_name.get()
 
         if not config["cvars"]["hostname"]:
             config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.match_id.get()} | {self.team1.get_team_name()} vs {self.team2.get_team_name()}"
@@ -247,11 +257,58 @@ class MatchConfigApp:
         sanitized_team2 = sanitize_filename(self.team2.get_team_name())
 
         default_filename = f"UA1_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
-        save_path = filedialog.asksaveasfilename(defaultextension=".json", initialfile=default_filename, filetypes=[["JSON Files", "*.json"]])
+        save_path = filedialog.asksaveasfilename(
+            defaultextension=".json",
+            initialdir=last_save_dir,
+            initialfile=default_filename,
+            filetypes=[["JSON Files", "*.json"]]
+        )
         if save_path:
+            last_save_dir = os.path.dirname(save_path)  # remember last folder
             with open(save_path, "w") as f:
                 json.dump(config, f, indent=2)
             messagebox.showinfo("Success", f"Match config saved to {save_path}")
+
+    def load_match_config(self):
+        filepath = filedialog.askopenfilename(
+            initialdir=last_save_dir,
+            filetypes=[["JSON Files", "*.json"]]
+        )
+        if filepath:
+            with open(filepath, "r") as f:
+                data = json.load(f)
+
+            self.match_id.set(data.get("matchid", 0))
+            self.tournament_name.set(data.get("tournament", ""))
+            self.stage_name.set(data.get("stage", ""))
+            self.hostname.set(data.get("cvars", {}).get("hostname", ""))
+
+            self.team1.name_var.set(data.get("team1", {}).get("name", ""))
+            self.team1.players = data.get("team1", {}).get("players", {})
+            self.team1.refresh_player_list()
+
+            self.team2.name_var.set(data.get("team2", {}).get("name", ""))
+            self.team2.players = data.get("team2", {}).get("players", {})
+            self.team2.refresh_player_list()
+
+            for i, (map_var, side_var) in enumerate(self.map_vars):
+                try:
+                    map_var.set(data.get("maplist", [])[i])
+                    side_var.set(data.get("map_sides", [])[i])
+                except IndexError:
+                    pass
+
+            self.spectators = data.get("spectators", {}).get("players", {})
+            self.update_spec_list()
+
+            for k, var in self.cvar_vars.items():
+                var.set(data.get("cvars", {}).get(k, DEFAULT_CVARS.get(k, "")))
+
+            # Also reload tournament and stage if inside cvars for consistency
+            self.tournament_name.set(data.get("cvars", {}).get("tournament", self.tournament_name.get()))
+            self.stage_name.set(data.get("cvars", {}).get("stage", self.stage_name.get()))
+
+            messagebox.showinfo("Loaded", f"Match config loaded from {filepath}")
 
 if __name__ == "__main__":
     root = tk.Tk()

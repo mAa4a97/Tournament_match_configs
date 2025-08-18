@@ -1,26 +1,25 @@
 {
-  "matchid": 34,
+  "matchid": 37,
   "team1": {
-    "name": "MOUZ NXT",
+    "name": "G2 ARES",
     "players": {
-      "76561198254835598": "ay0k",
-      "76561198407480534": "Nikodeon",
-      "76561198998266210": "xelex",
-      "76561198377256168": "Joey",
-      "76561198295739416": "opdust",
-      "76561198013540900": "LMBT"
+      "76561198175704447": "fNk",
+      "76561199059559714": "hitori",
+      "76561198190685310": "tAk",
+      "76561198125068631": "kl1m",
+      "76561199217021405": "Nidoriaa",
+      "76561198042092011": "LETN1"
     }
   },
   "team2": {
-    "name": "Papara Supermassive Academy",
+    "name": "VP.Future",
     "players": {
-      "76561198877800161": "sh1pz09",
-      "76561198858597163": "Steep",
-      "76561198856830947": "oyesil",
-      "76561199837007531": "j4hex",
-      "76561198248808610": "zemix",
-      "76561198124405065": "Logicmannnnn",
-      "76561199004956721": "xeZq"
+      "76561199083461507": "m0NZ0R",
+      "76561199441393810": "Ekzo",
+      "76561198428442405": "overpriced",
+      "76561199228548850": "turbo",
+      "76561198033831919": "rokilan",
+      "76561198141667219": "lasfas"
     }
   },
   "num_maps": 1,
@@ -47,7 +46,11 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Urban Academies #1 | 34 | MOUZ NXT vs Papara Supermassive Academy",
-    "mp_friendlyfire": "1"
-  }
+    "hostname": "Urban Academies #1 | 37 | G2 ARES vs VP.Future",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Academies #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Urban Academies #1",
+  "stage": "GROUPS"
 }

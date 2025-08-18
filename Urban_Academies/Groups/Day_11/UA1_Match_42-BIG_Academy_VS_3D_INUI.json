@@ -1,26 +1,23 @@
 {
-  "matchid": 36,
+  "matchid": 42,
   "team1": {
-    "name": "Aurora Young Blud",
+    "name": "BIG Academy",
     "players": {
-      "76561199485654630": "starmie",
-      "76561198042384924": "Ayri",
-      "76561198872323455": "r1pa4",
-      "76561199440982027": "meetyoxanaji",
-      "76561199233825002": "k1nco",
-      "76561199026084034": "Temniy-Prince"
+      "76561198219516767": "FreeZe",
+      "76561198178801031": "prosus",
+      "76561198888800765": "w1dow",
+      "76561198820845612": "NaYz",
+      "76561199002096113": "xonn1k"
     }
   },
   "team2": {
-    "name": "CPH Wolves Academy",
+    "name": "3D INUI",
     "players": {
-      "76561198181044439": "Olaie",
-      "76561199383709615": "dixxi",
-      "76561198844629976": "clockzi",
-      "76561198148840902": "Itachje",
-      "76561199128938615": "mad1nho",
-      "76561199091825101": "NucleonZ",
-      "76561198304901397": "Givenchy"
+      "76561198979391272": "Myzunic",
+      "76561198311857376": "bL4SEZ",
+      "76561198996743020": "eSx-",
+      "76561198863042050": "XiMaa",
+      "76561198996475055": "Nico"
     }
   },
   "num_maps": 1,
@@ -47,7 +44,7 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Urban Academies #1 | 36 | Aurora Young Blud vs CPH Wolves Academy",
+    "hostname": "Urban Academies #1 | 42 | BIG Academy vs 3D INUI",
     "mp_friendlyfire": "1",
     "tournament": "Urban Academies #1",
     "stage": "GROUPS"

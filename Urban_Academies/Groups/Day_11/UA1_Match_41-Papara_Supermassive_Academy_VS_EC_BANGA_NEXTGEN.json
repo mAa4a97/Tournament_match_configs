@@ -1,26 +1,26 @@
 {
-  "matchid": 36,
+  "matchid": 41,
   "team1": {
-    "name": "Aurora Young Blud",
+    "name": "Papara Supermassive Academy",
     "players": {
-      "76561199485654630": "starmie",
-      "76561198042384924": "Ayri",
-      "76561198872323455": "r1pa4",
-      "76561199440982027": "meetyoxanaji",
-      "76561199233825002": "k1nco",
-      "76561199026084034": "Temniy-Prince"
+      "76561198877800161": "sh1pz09",
+      "76561198858597163": "Steep",
+      "76561198856830947": "oyesil",
+      "76561199837007531": "j4hex",
+      "76561198248808610": "zemix",
+      "76561198124405065": "Logicmannnnn",
+      "76561199004956721": "xeZq"
     }
   },
   "team2": {
-    "name": "CPH Wolves Academy",
+    "name": "EC BANGA NEXTGEN",
     "players": {
-      "76561198181044439": "Olaie",
-      "76561199383709615": "dixxi",
-      "76561198844629976": "clockzi",
-      "76561198148840902": "Itachje",
-      "76561199128938615": "mad1nho",
-      "76561199091825101": "NucleonZ",
-      "76561198304901397": "Givenchy"
+      "76561198870256366": "flairr",
+      "76561198273383635": "rabbit",
+      "76561199016281257": "yupiterS",
+      "76561198967850653": "ESTRELLO",
+      "76561199006504952": "GachoDix",
+      "76561198920856840": "grizz"
     }
   },
   "num_maps": 1,
@@ -47,7 +47,7 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Urban Academies #1 | 36 | Aurora Young Blud vs CPH Wolves Academy",
+    "hostname": "Urban Academies #1 | 41 | Papara Supermassive Academy vs EC BANGA NEXTGEN",
     "mp_friendlyfire": "1",
     "tournament": "Urban Academies #1",
     "stage": "GROUPS"
