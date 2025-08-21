@@ -23,13 +23,13 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_inferno",
     "de_dust2",
-    "de_nuke"
+    "de_inferno",
+    "de_mirage"
   ],
   "map_sides": [
     "team1_ct",
-    "team2_t",
+    "team2_ct",
     "knife"
   ],
   "spectators": {
@@ -39,7 +39,7 @@
       "76561198000304967": "[PARTNER] Spec3",
       "76561197995895918": "[PARTNER] Spec4",
       "76561199036276883": "[PARTNER] Spec5",
-      "76561198053473455": "[UC] SMM",
+      "76561198053473455": "[ADMIN]",
       "76561199188776460": "[OBS] mAa4a",
       "76561198367886994": "[TournOps] mAa4a",
       "76561199145161335": "[ADMIN] UrbanSupport"
