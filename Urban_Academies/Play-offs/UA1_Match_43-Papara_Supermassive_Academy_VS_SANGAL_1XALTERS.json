@@ -1,0 +1,60 @@
+{
+  "matchid": 43,
+  "team1": {
+    "name": "Papara Supermassive Academy",
+    "players": {
+      "76561198877800161": "sh1pz09",
+      "76561198858597163": "Steep",
+      "76561198856830947": "oyesil",
+      "76561199837007531": "j4hex",
+      "76561198248808610": "zemix",
+      "76561198124405065": "Logicmannnnn",
+      "76561199004956721": "xeZq"
+    }
+  },
+  "team2": {
+    "name": "SANGAL 1XALTERS",
+    "players": {
+      "76561198821360071": "-tgN",
+      "76561198185212081": "scolleN",
+      "76561198282520651": "eNs",
+      "76561199011712245": "h0kz",
+      "76561198397132290": "R4DYX"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_dust2",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 43 | Papara Supermassive Academy vs SANGAL 1XALTERS",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Academies #1",
+    "stage": "PLAY-OFFS"
+  },
+  "tournament": "Urban Academies #1",
+  "stage": "PLAY-OFFS"
+}
