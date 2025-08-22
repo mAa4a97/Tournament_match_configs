@@ -1,0 +1,59 @@
+{
+  "matchid": 46,
+  "team1": {
+    "name": "Aurora Young Blud",
+    "players": {
+      "76561199485654630": "starmie",
+      "76561198042384924": "Ayri",
+      "76561198872323455": "r1pa4",
+      "76561199440982027": "meetyoxanaji",
+      "76561199233825002": "k1nco",
+      "76561199026084034": "Temniy-Prince"
+    }
+  },
+  "team2": {
+    "name": "SANGAL 1XALTERS",
+    "players": {
+      "76561198821360071": "-tgN",
+      "76561198185212081": "scolleN",
+      "76561198282520651": "eNs",
+      "76561199011712245": "h0kz",
+      "76561198397132290": "R4DYX"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_overpass",
+    "de_ancient"
+  ],
+  "map_sides": [
+    "team1_t",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[ADMIN]",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 46 | Aurora Young Blud vs SANGAL 1XALTERS",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Academies #1",
+    "stage": "PLAY-OFFS"
+  },
+  "tournament": "Urban Academies #1",
+  "stage": "PLAY-OFFS"
+}
