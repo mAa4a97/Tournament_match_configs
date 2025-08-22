@@ -23,8 +23,8 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_inferno",
-    "de_overpass",
+    "de_mirage",
+    "de_dust2",
     "de_ancient"
   ],
   "map_sides": [
