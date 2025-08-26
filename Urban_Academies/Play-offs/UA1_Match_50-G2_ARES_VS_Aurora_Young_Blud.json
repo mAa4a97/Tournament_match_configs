@@ -1,0 +1,60 @@
+{
+  "matchid": 50,
+  "team1": {
+    "name": "G2 ARES",
+    "players": {
+      "76561198175704447": "fNk",
+      "76561199059559714": "hitori",
+      "76561198190685310": "tAk",
+      "76561198125068631": "kl1m",
+      "76561199217021405": "Nidoriaa",
+      "76561198042092011": "LETN1"
+    }
+  },
+  "team2": {
+    "name": "Aurora Young Blud",
+    "players": {
+      "76561199485654630": "starmie",
+      "76561198042384924": "Ayri",
+      "76561198872323455": "r1pa4",
+      "76561199440982027": "meetyoxanaji",
+      "76561199233825002": "k1nco",
+      "76561199026084034": "Temniy-Prince"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_mirage",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198171639490": "[PARTNER] Spec1",
+      "76561198150926776": "[PARTNER] Spec2",
+      "76561198000304967": "[PARTNER] Spec3",
+      "76561197995895918": "[PARTNER] Spec4",
+      "76561199036276883": "[PARTNER] Spec5",
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199145161335": "[ADMIN] UrbanSupport"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Academies #1 | 50 | G2 ARES vs Aurora Young Blud",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Academies #1",
+    "stage": "PLAY-OFFS"
+  },
+  "tournament": "Urban Academies #1",
+  "stage": "PLAY-OFFS"
+}
