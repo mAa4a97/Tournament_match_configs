@@ -25,8 +25,8 @@
   },
   "num_maps": 3,
   "maplist": [
-    "de_mirage",
     "de_dust2",
+    "de_mirage",
     "de_ancient"
   ],
   "map_sides": [
