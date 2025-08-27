@@ -26,12 +26,12 @@
   "num_maps": 3,
   "maplist": [
     "de_mirage",
-    "de_dust2",
+    "de_inferno",
     "de_ancient"
   ],
   "map_sides": [
     "team1_t",
-    "team2_t",
+    "team2_ct",
     "knife"
   ],
   "spectators": {
