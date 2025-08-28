@@ -20,17 +20,17 @@
       "76561198872323455": "r1pa4",
       "76561199440982027": "meetyoxanaji",
       "76561199233825002": "k1nco",
-      "76561199026084034": "Temniy-Prince"
+      "76561199026084034": "Temny-Prince"
     }
   },
   "num_maps": 3,
   "maplist": [
-    "de_inferno",
     "de_mirage",
-    "de_nuke"
+    "de_overpass",
+    "de_ancient"
   ],
   "map_sides": [
-    "team1_ct",
+    "team1_t",
     "team2_t",
     "knife"
   ],
