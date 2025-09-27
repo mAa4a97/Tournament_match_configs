@@ -19,11 +19,14 @@ os.makedirs(TEAM_FOLDER, exist_ok=True)
 
 last_save_dir = os.getcwd()  # Track last used folder
 
+
 def is_valid_steamid(steamid):
     return bool(re.fullmatch(r"\d{17}", steamid))
 
+
 def sanitize_filename(name):
     return re.sub(r"[^\w\-]", "_", name.strip())
+
 
 class TeamManager:
     def __init__(self, frame, team_num):
@@ -48,7 +51,7 @@ class TeamManager:
         ttk.Entry(entry_row, textvariable=self.steamid_var, width=30).pack(side="left")
         ttk.Button(entry_row, text="Add", command=self.add_player).pack(side="left")
 
-        self.player_list = tk.Listbox(self.player_frame)
+        self.player_list = tk.Listbox(self.player_frame, height=5)
         self.player_list.pack(fill="both", expand=True)
 
         ttk.Button(self.player_frame, text="Remove Selected", command=self.remove_selected).pack()
@@ -109,12 +112,67 @@ class TeamManager:
     def get_team_name(self):
         return self.name_var.get()
 
+
+class AutoHideScrollbar(ttk.Scrollbar):
+    def set(self, lo, hi):
+        if float(lo) <= 0.0 and float(hi) >= 1.0:
+            self.pack_forget()
+        else:
+            self.pack()
+        super().set(lo, hi)
+
+
 class MatchConfigApp:
     def __init__(self, root):
         self.root = root
         root.title("MatchZy Config Generator")
 
-        self.main_frame = ttk.Frame(root, padding=10)
+        # Make window scrollable (both directions, auto-hide scrollbars)
+        container = ttk.Frame(root)
+        container.pack(fill="both", expand=True)
+
+        canvas = tk.Canvas(container)
+        vscrollbar = AutoHideScrollbar(container, orient="vertical", command=canvas.yview)
+        hscrollbar = AutoHideScrollbar(container, orient="horizontal", command=canvas.xview)
+        self.scroll_frame = ttk.Frame(canvas)
+
+        self.scroll_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+
+        canvas.create_window((0, 0), window=self.scroll_frame, anchor="nw")
+        canvas.configure(yscrollcommand=vscrollbar.set, xscrollcommand=hscrollbar.set)
+
+        # Enable mousewheel scrolling (Windows/Mac/Linux)
+        def _on_mousewheel(event):
+            if event.num == 4:  # Linux scroll up
+                canvas.yview_scroll(-1, "units")
+            elif event.num == 5:  # Linux scroll down
+                canvas.yview_scroll(1, "units")
+            else:
+                canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        def _on_shift_mousewheel(event):
+            if event.num == 4:
+                canvas.xview_scroll(-1, "units")
+            elif event.num == 5:
+                canvas.xview_scroll(1, "units")
+            else:
+                canvas.xview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        # Bind for Windows/Mac
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+        canvas.bind_all("<Shift-MouseWheel>", _on_shift_mousewheel)
+        # Bind for Linux (Button-4/5 events)
+        canvas.bind_all("<Button-4>", _on_mousewheel)
+        canvas.bind_all("<Button-5>", _on_mousewheel)
+
+        canvas.pack(side="left", fill="both", expand=True)
+        vscrollbar.pack(side="right", fill="y")
+        hscrollbar.pack(side="bottom", fill="x")
+
+        self.main_frame = ttk.Frame(self.scroll_frame, padding=10)
         self.main_frame.pack(fill="both", expand=True)
 
         self.team1 = TeamManager(ttk.LabelFrame(self.main_frame, text="Team 1"), 1)
@@ -153,7 +211,7 @@ class MatchConfigApp:
             row.pack(fill="x")
             map_var = tk.StringVar(value=MAP_POOL[i])
             side_var = tk.StringVar(value="knife")
-            ttk.Label(row, text=f"Map {i+1}").pack(side="left")
+            ttk.Label(row, text=f"Map {i + 1}").pack(side="left")
             ttk.Combobox(row, textvariable=map_var, values=MAP_POOL).pack(side="left")
             ttk.Combobox(row, textvariable=side_var, values=SIDE_OPTIONS).pack(side="left")
             self.map_vars.append((map_var, side_var))
@@ -168,7 +226,7 @@ class MatchConfigApp:
         ttk.Entry(spec_row, textvariable=self.spec_nick, width=20).pack(side="left")
         ttk.Entry(spec_row, textvariable=self.spec_id, width=30).pack(side="left")
         ttk.Button(spec_row, text="Add", command=self.add_spectator).pack(side="left")
-        self.spec_list = tk.Listbox(self.spec_frame)
+        self.spec_list = tk.Listbox(self.spec_frame, height=5)
         self.spec_list.pack(fill="x")
         ttk.Button(self.spec_frame, text="Remove Selected", command=self.remove_spectator).pack()
         ttk.Button(self.spec_frame, text="Save Spectators", command=self.save_spectators).pack()
@@ -183,8 +241,10 @@ class MatchConfigApp:
             ttk.Label(row, text=key, width=25).pack(side="left")
             ttk.Entry(row, textvariable=var).pack(side="left", fill="x", expand=True)
 
-        ttk.Button(self.main_frame, text="Generate Config", command=self.generate_config).grid(row=4, column=0, pady=20)
-        ttk.Button(self.main_frame, text="Load Match Config", command=self.load_match_config).grid(row=4, column=1, pady=20)
+        btn_frame = ttk.Frame(self.main_frame)
+        btn_frame.grid(row=4, column=0, columnspan=3, pady=20)
+        ttk.Button(btn_frame, text="Generate Config", command=self.generate_config).pack(side="left", padx=5)
+        ttk.Button(btn_frame, text="Load Match Config", command=self.load_match_config).pack(side="left", padx=5)
 
     def add_spectator(self):
         sid = self.spec_id.get().strip()
@@ -250,13 +310,14 @@ class MatchConfigApp:
         config["cvars"]["stage"] = self.stage_name.get()
 
         if not config["cvars"]["hostname"]:
-            config["cvars"]["hostname"] = f"{self.tournament_name.get()} | {self.match_id.get()} | {self.team1.get_team_name()} vs {self.team2.get_team_name()}"
+            config["cvars"][
+                "hostname"] = f"{self.tournament_name.get()} | {self.match_id.get()} | {self.team1.get_team_name()} vs {self.team2.get_team_name()}"
 
         sanitized_tournament = sanitize_filename(self.tournament_name.get())
         sanitized_team1 = sanitize_filename(self.team1.get_team_name())
         sanitized_team2 = sanitize_filename(self.team2.get_team_name())
 
-        default_filename = f"UA1_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
+        default_filename = f"UR1_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
         save_path = filedialog.asksaveasfilename(
             defaultextension=".json",
             initialdir=last_save_dir,
@@ -301,12 +362,9 @@ class MatchConfigApp:
             self.spectators = data.get("spectators", {}).get("players", {})
             self.update_spec_list()
 
-            for k, var in self.cvar_vars.items():
-                var.set(data.get("cvars", {}).get(k, DEFAULT_CVARS.get(k, "")))
-
-            # Also reload tournament and stage if inside cvars for consistency
-            self.tournament_name.set(data.get("cvars", {}).get("tournament", self.tournament_name.get()))
-            self.stage_name.set(data.get("cvars", {}).get("stage", self.stage_name.get()))
+            for key, var in self.cvar_vars.items():
+                if key in data.get("cvars", {}):
+                    var.set(data["cvars"][key])
 
             messagebox.showinfo("Loaded", f"Match config loaded from {filepath}")
 

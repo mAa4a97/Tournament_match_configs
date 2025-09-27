@@ -1,0 +1,52 @@
+{
+  "matchid": 7,
+  "team1": {
+    "name": "OlyBet SB",
+    "players": {
+      "76561198007542410": "PrelideN",
+      "76561198212318784": "discplex",
+      "76561198006612426": "cgk",
+      "76561198273767120": "hexoq",
+      "76561198057797475": "yaankz"
+    }
+  },
+  "team2": {
+    "name": "ASTRAL",
+    "players": {
+      "76561199204613550": "rickangel",
+      "76561198379204570": "Neqy",
+      "76561198422707218": "RaY5ive",
+      "76561199305069806": "meowpop",
+      "76561198151111947": "ASTR"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_mirage",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #1 | 7 | OlyBet SB vs ASTRAL",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Riga Open #1",
+  "stage": "GROUPS"
+}

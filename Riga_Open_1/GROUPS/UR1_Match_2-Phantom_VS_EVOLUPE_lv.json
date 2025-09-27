@@ -1,0 +1,52 @@
+{
+  "matchid": 2,
+  "team1": {
+    "name": "Phantom",
+    "players": {
+      "76561198156373160": "TOAO",
+      "76561198029492496": "szejn",
+      "76561199114085239": "Ayteel",
+      "76561198874529807": "Kunai",
+      "76561198238366860": "DGL"
+    }
+  },
+  "team2": {
+    "name": "EVOLUPE.lv",
+    "players": {
+      "76561198870256366": "flairr",
+      "76561198396836822": "Yamero~",
+      "76561199145161335": "m1kketye",
+      "76561198273383635": "rabbit",
+      "76561198213027407": "ChipaaN"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_mirage",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #1 | 2 | Phantom vs EVOLUPE.lv",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Riga Open #1",
+  "stage": "GROUPS"
+}
