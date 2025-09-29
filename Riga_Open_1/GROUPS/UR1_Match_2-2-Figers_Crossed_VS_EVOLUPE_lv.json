@@ -1,0 +1,48 @@
+{
+  "matchid": 102,
+  "team1": {
+    "name": "Figers Crossed",
+    "players": {
+      "76561198315324300": "MAGILA-",
+      "76561197981938836": "Sidivo",
+      "76561198119517879": "BaGyZ",
+      "76561198201854273": "fello",
+      "76561198336211730": "Uzman"
+    }
+  },
+  "team2": {
+    "name": "EVOLUPE.lv",
+    "players": {
+      "76561198870256366": "flairr",
+      "76561198396836822": "Yamero~",
+      "76561199145161335": "m1kketye",
+      "76561198273383635": "rabbit",
+      "76561198213027407": "ChipaaN"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #1 | 2 | Figers Crossed vs EVOLUPE.lv",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Riga Open #1",
+  "stage": "GROUPS"
+}
