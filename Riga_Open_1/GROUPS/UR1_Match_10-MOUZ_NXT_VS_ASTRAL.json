@@ -1,0 +1,48 @@
+{
+  "matchid": 10,
+  "team1": {
+    "name": "MOUZ NXT",
+    "players": {
+      "76561198295739416": "opdust",
+      "76561198998266210": "xelex",
+      "76561198377256168": "Joey",
+      "76561198254835598": "ay0k",
+      "76561198407480534": "Nikodeon"
+    }
+  },
+  "team2": {
+    "name": "ASTRAL",
+    "players": {
+      "76561199204613550": "rickangel",
+      "76561198379204570": "Neqy",
+      "76561198422707218": "RaY5ive",
+      "76561199305069806": "meowpop",
+      "76561198151111947": "ASTR"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_train",
+    "de_dust2",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_t",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 10 | MOUZ NXT vs ASTRAL",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "GROUPS"
+}
