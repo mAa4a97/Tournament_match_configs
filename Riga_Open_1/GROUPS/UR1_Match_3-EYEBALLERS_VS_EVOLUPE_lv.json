@@ -1,31 +1,35 @@
 {
-  "matchid": 101,
+  "matchid": 3,
   "team1": {
     "name": "EYEBALLERS",
     "players": {
       "76561198031554200": "JW",
-      "76561199132217533": "maxster",
       "76561198071096426": "Ro1f",
       "76561198060916227": "bobeksde",
-      "76561199235199664": "dex"
+      "76561199235199664": "dex",
+      "76561199132217533": "maxster"
     }
   },
   "team2": {
-    "name": "Nemesis",
+    "name": "EVOLUPE.lv",
     "players": {
-      "76561198025448130": "Thomas",
-      "76561198225120272": "Frip",
-      "76561198339865212": "bevve",
-      "76561198324866363": "tein",
-      "76561198119098292": "CRUC1AL"
+      "76561198870256366": "flairr",
+      "76561198396836822": "Yamero~",
+      "76561199145161335": "m1kketye",
+      "76561198273383635": "rabbit",
+      "76561198213027407": "ChipaaN"
     }
   },
-  "num_maps": 1,
+  "num_maps": 3,
   "maplist": [
+    "de_nuke",
+    "de_overpass",
     "de_mirage"
   ],
   "map_sides": [
-    "team1_t"
+    "team1_t",
+    "team2_t",
+    "knife"
   ],
   "spectators": {
     "players": {
@@ -38,7 +42,7 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Riga Open #1 | 1 | EYEBALLERS vs Nemesis",
+    "hostname": "Riga Open #1 | 3 | EYEBALLERS vs EVOLUPE.lv",
     "mp_friendlyfire": "1",
     "tournament": "Riga Open #1",
     "stage": "GROUPS"

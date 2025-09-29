@@ -1,0 +1,52 @@
+{
+  "matchid": 4,
+  "team1": {
+    "name": "Nemesis",
+    "players": {
+      "76561198025448130": "Thomas",
+      "76561198225120272": "Frip",
+      "76561198339865212": "bevve",
+      "76561198324866363": "tein",
+      "76561198119098292": "CRUC1AL"
+    }
+  },
+  "team2": {
+    "name": "Figers Crossed",
+    "players": {
+      "76561198315324300": "MAGILA-",
+      "76561197981938836": "Sidivo",
+      "76561198119517879": "BaGyZ",
+      "76561198201854273": "fello",
+      "76561198336211730": "Uzman"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_train",
+    "de_overpass",
+    "de_inferno"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #1 | 4 | Nemesis vs Figers Crossed",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Riga Open #1",
+  "stage": "GROUPS"
+}
