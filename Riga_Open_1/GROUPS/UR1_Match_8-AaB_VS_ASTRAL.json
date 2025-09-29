@@ -1,0 +1,48 @@
+{
+  "matchid": 8,
+  "team1": {
+    "name": "AaB",
+    "players": {
+      "76561198011668639": "Boye",
+      "76561198399476632": "Viggo",
+      "76561199018118161": "stesso",
+      "76561198257919176": "qx",
+      "76561198164733410": "SinK"
+    }
+  },
+  "team2": {
+    "name": "ASTRAL",
+    "players": {
+      "76561199204613550": "rickangel",
+      "76561198379204570": "Neqy",
+      "76561198422707218": "RaY5ive",
+      "76561199305069806": "meowpop",
+      "76561198151111947": "ASTR"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_dust2",
+    "de_inferno",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 8 | AaB vs ASTRAL",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "GROUPS"
+}
