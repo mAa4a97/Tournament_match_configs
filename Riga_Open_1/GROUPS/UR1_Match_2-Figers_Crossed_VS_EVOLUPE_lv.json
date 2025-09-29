@@ -23,11 +23,11 @@
   "num_maps": 1,
   "maplist": [
     "de_inferno",
-    "de_mirage",
-    "de_nuke"
+    "de_nuke",
+    "de_overpass"
   ],
   "map_sides": [
-    "team1_ct",
+    "team1_t",
     "team2_t",
     "knife"
   ],
