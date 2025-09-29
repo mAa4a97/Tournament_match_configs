@@ -1,0 +1,48 @@
+{
+  "matchid": 9,
+  "team1": {
+    "name": "MOUZ NXT",
+    "players": {
+      "76561198295739416": "opdust",
+      "76561198998266210": "xelex",
+      "76561198377256168": "Joey",
+      "76561198254835598": "ay0k",
+      "76561198407480534": "Nikodeon"
+    }
+  },
+  "team2": {
+    "name": "OlyBet SB",
+    "players": {
+      "76561198007542410": "PrelideN",
+      "76561198212318784": "discplex",
+      "76561198006612426": "cgk",
+      "76561198273767120": "hexoq",
+      "76561198057797475": "yaankz"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_dust2",
+    "de_ancient",
+    "de_mirage"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 9 | MOUZ NXT vs OlyBet SB",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "GROUPS"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "GROUPS"
+}
