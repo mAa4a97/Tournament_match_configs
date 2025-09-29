@@ -27,8 +27,8 @@
     "de_mirage"
   ],
   "map_sides": [
-    "team1_t",
-    "team2_t",
+    "team1_ct",
+    "team2_ct",
     "knife"
   ],
   "spectators": {
