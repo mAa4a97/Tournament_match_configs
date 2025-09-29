@@ -43,7 +43,7 @@
   "cvars": {
     "mp_spec_swapplayersides": "1",
     "hostname": "Riga Open #1 | 3 | EYEBALLERS vs EVOLUPE.lv",
-    "mp_friendlyfire": "1",
+    "mp_friendlyfire": "1"
   },
   "tournament": "Riga Open #1",
   "stage": "GROUPS"
