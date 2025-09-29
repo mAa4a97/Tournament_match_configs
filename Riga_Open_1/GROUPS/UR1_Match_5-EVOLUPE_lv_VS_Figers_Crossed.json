@@ -1,30 +1,30 @@
 {
-  "matchid": 6,
+  "matchid": 5,
   "team1": {
-    "name": "AaB",
+    "name": "EVOLUPE.lv",
     "players": {
-      "76561198011668639": "Boye",
-      "76561198399476632": "Viggo",
-      "76561199018118161": "stesso",
-      "76561198257919176": "qx",
-      "76561198164733410": "SinK"
+      "76561198870256366": "flairr",
+      "76561198396836822": "Yamero~",
+      "76561199145161335": "m1kketye",
+      "76561198273383635": "rabbit",
+      "76561198213027407": "ChipaaN"
     }
   },
   "team2": {
-    "name": "MOUZ NXT",
+    "name": "Figers Crossed",
     "players": {
-      "76561198295739416": "opdust",
-      "76561198998266210": "xelex",
-      "76561198377256168": "Joey",
-      "76561198254835598": "ay0k",
-      "76561198407480534": "Nikodeon"
+      "76561198315324300": "MAGILA-",
+      "76561197981938836": "Sidivo",
+      "76561198119517879": "BaGyZ",
+      "76561198201854273": "fello",
+      "76561198336211730": "Uzman"
     }
   },
   "num_maps": 3,
   "maplist": [
+    "de_inferno",
     "de_nuke",
-    "de_overpass",
-    "de_mirage"
+    "de_overpass"
   ],
   "map_sides": [
     "team1_ct",
@@ -42,7 +42,7 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Riga Open #1 | 6 | AaB vs MOUZ NXT",
+    "hostname": "Riga Open #1 | 5 | EVOLUPE.lv vs Figers Crossed",
     "mp_friendlyfire": "1",
     "tournament": "Riga Open #1",
     "stage": "GROUPS"
