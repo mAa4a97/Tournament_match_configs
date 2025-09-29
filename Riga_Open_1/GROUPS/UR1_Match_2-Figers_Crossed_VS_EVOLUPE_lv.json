@@ -1,13 +1,13 @@
 {
   "matchid": 2,
   "team1": {
-    "name": "Phantom",
+    "name": "Figers Crossed",
     "players": {
-      "76561198156373160": "TOAO",
-      "76561198029492496": "szejn",
-      "76561199114085239": "Ayteel",
-      "76561198874529807": "Kunai",
-      "76561198238366860": "DGL"
+      "76561198315324300": "MAGILA-",
+      "76561197981938836": "Sidivo",
+      "76561198119517879": "BaGyZ",
+      "76561198201854273": "fello",
+      "76561198336211730": "Uzman"
     }
   },
   "team2": {
@@ -20,7 +20,7 @@
       "76561198213027407": "ChipaaN"
     }
   },
-  "num_maps": 3,
+  "num_maps": 1,
   "maplist": [
     "de_inferno",
     "de_mirage",
@@ -42,7 +42,7 @@
   "players_per_team": "5",
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "Riga Open #1 | 2 | Phantom vs EVOLUPE.lv",
+    "hostname": "Riga Open #1 | 2 | Figers Crossed vs EVOLUPE.lv",
     "mp_friendlyfire": "1",
     "tournament": "Riga Open #1",
     "stage": "GROUPS"
