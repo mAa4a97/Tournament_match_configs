@@ -1,0 +1,48 @@
+{
+  "matchid": 15,
+  "team1": {
+    "name": "OG Esports",
+    "players": {
+      "76561198079183361": "spooke",
+      "76561197973757802": "arrozdoce",
+      "76561198851067539": "adamb",
+      "76561198292598811": "Chr1zN",
+      "76561198073117127": "nicoodoz"
+    }
+  },
+  "team2": {
+    "name": "Alliance",
+    "players": {
+      "76561198202417343": "avid",
+      "76561197980244859": "twist",
+      "76561198045056482": "upE",
+      "76561198374154451": "eraa",
+      "76561197995178481": "poiii"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_overpass"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 15 | OG Esports vs Alliance",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
