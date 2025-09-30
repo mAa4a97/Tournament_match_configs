@@ -1,0 +1,48 @@
+{
+  "matchid": 16,
+  "team1": {
+    "name": "Figers Crossed",
+    "players": {
+      "76561198315324300": "MAGILA-",
+      "76561197981938836": "Sidivo",
+      "76561198119517879": "BaGyZ",
+      "76561198201854273": "fello",
+      "76561198336211730": "Uzman"
+    }
+  },
+  "team2": {
+    "name": "AaB",
+    "players": {
+      "76561198011668639": "Boye",
+      "76561198399476632": "Viggo",
+      "76561199018118161": "stesso",
+      "76561198257919176": "qx",
+      "76561198164733410": "SinK"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_overpass"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 16 | Figers Crossed vs AaB",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
