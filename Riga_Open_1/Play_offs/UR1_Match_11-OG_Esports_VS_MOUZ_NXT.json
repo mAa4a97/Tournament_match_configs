@@ -1,0 +1,52 @@
+{
+  "matchid": 11,
+  "team1": {
+    "name": "OG Esports",
+    "players": {
+      "76561198079183361": "spooke",
+      "76561197973757802": "arrozdoce",
+      "76561198851067539": "adamb",
+      "76561198292598811": "Chr1zN",
+      "76561198073117127": "nicoodoz"
+    }
+  },
+  "team2": {
+    "name": "MOUZ NXT",
+    "players": {
+      "76561198295739416": "opdust",
+      "76561198998266210": "xelex",
+      "76561198377256168": "Joey",
+      "76561198254835598": "ay0k",
+      "76561198407480534": "Nikodeon"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_ancient",
+    "de_overpass"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 11 | OG Esports vs MOUZ NXT",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}

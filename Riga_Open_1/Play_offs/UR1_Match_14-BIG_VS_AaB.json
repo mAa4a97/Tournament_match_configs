@@ -1,0 +1,52 @@
+{
+  "matchid": 14,
+  "team1": {
+    "name": "BIG",
+    "players": {
+      "76561197961491680": "tabseN",
+      "76561198078771373": "JDC",
+      "76561198178801031": "prosus",
+      "76561198170631091": "Krimbo",
+      "76561198139604328": "hyped"
+    }
+  },
+  "team2": {
+    "name": "AaB",
+    "players": {
+      "76561198011668639": "Boye",
+      "76561198399476632": "Viggo",
+      "76561199018118161": "stesso",
+      "76561198257919176": "qx",
+      "76561198164733410": "SinK"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_inferno",
+    "de_dust2",
+    "de_overpass"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 14 | BIG vs AaB",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}

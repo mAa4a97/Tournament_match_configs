@@ -1,0 +1,52 @@
+{
+  "matchid": 12,
+  "team1": {
+    "name": "Alliance",
+    "players": {
+      "76561198202417343": "avid",
+      "76561197980244859": "twist",
+      "76561198045056482": "upE",
+      "76561198374154451": "eraa",
+      "76561197995178481": "poiii"
+    }
+  },
+  "team2": {
+    "name": "EYEBALLERS",
+    "players": {
+      "76561198031554200": "JW",
+      "76561198071096426": "Ro1f",
+      "76561198060916227": "bobeksde",
+      "76561199235199664": "dex",
+      "76561199132217533": "maxster"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_overpass",
+    "de_nuke",
+    "de_train"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 12 | Alliance vs EYEBALLERS",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
