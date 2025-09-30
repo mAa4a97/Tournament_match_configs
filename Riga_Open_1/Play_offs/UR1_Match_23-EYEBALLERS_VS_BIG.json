@@ -1,0 +1,52 @@
+{
+  "matchid": 23,
+  "team1": {
+    "name": "EYEBALLERS",
+    "players": {
+      "76561198031554200": "JW",
+      "76561198071096426": "Ro1f",
+      "76561198060916227": "bobeksde",
+      "76561199235199664": "dex",
+      "76561199132217533": "maxster"
+    }
+  },
+  "team2": {
+    "name": "BIG",
+    "players": {
+      "76561197961491680": "tabseN",
+      "76561198078771373": "JDC",
+      "76561198178801031": "prosus",
+      "76561198170631091": "Krimbo",
+      "76561198139604328": "hyped"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_overpass",
+    "de_inferno"
+  ],
+  "map_sides": [
+    "team1_t",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 23 | EYEBALLERS vs BIG",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
