@@ -1,5 +1,5 @@
 {
-  "matchid": 224,
+  "matchid": 324,
   "team1": {
     "name": "EYEBALLERS",
     "players": {
@@ -20,7 +20,7 @@
       "76561198410085211": "nicx"
     }
   },
-  "num_maps": 3,
+  "num_maps": 1,
   "maplist": [
     "de_nuke"
   ],
