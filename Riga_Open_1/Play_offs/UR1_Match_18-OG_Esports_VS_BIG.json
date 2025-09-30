@@ -1,0 +1,48 @@
+{
+  "matchid": 18,
+  "team1": {
+    "name": "OG Esports",
+    "players": {
+      "76561198079183361": "spooke",
+      "76561197973757802": "arrozdoce",
+      "76561198851067539": "adamb",
+      "76561198292598811": "Chr1zN",
+      "76561198073117127": "nicoodoz"
+    }
+  },
+  "team2": {
+    "name": "BIG",
+    "players": {
+      "76561197961491680": "tabseN",
+      "76561198078771373": "JDC",
+      "76561198178801031": "prosus",
+      "76561198170631091": "Krimbo",
+      "76561198139604328": "hyped"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_overpass"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 18 | OG Esports vs BIG",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
