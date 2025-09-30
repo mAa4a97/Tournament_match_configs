@@ -1,0 +1,52 @@
+{
+  "matchid": 24,
+  "team1": {
+    "name": "EYEBALLERS",
+    "players": {
+      "76561198031554200": "JW",
+      "76561198071096426": "Ro1f",
+      "76561198060916227": "bobeksde",
+      "76561199235199664": "dex",
+      "76561199132217533": "maxster"
+    }
+  },
+  "team2": {
+    "name": "Passion UA",
+    "players": {
+      "76561198021715100": "JT",
+      "76561198060367310": "hallzerk",
+      "76561198191236195": "Grim",
+      "76561198845436666": "Kvem",
+      "76561198410085211": "nicx"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_ancient",
+    "de_dust2",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_t",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #1 | 24 | EYEBALLERS vs Passion UA",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #1",
+    "stage": "Play-offs"
+  },
+  "tournament": "Urban Riga #1",
+  "stage": "Play-offs"
+}
