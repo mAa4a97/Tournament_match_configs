@@ -1,0 +1,54 @@
+{
+    "matchid": 3,
+    "team1": {
+      "name": "HAVENs",
+      "players": {
+        "76561198991249101": "Sqreet",
+        "76561198281028374": "imp",
+        "76561199201717350": "proxi",
+        "76561198313371437": "v1trage",
+        "76561199022747440": "danss"
+      }
+    },
+    "team2": {
+      "name": "Exilium",
+      "players": {
+        "76561198165471427": "H1kari",
+        "76561199401892292": "cl0ij",
+        "76561198274639232": "bely",
+        "76561199202301825": "Cr1ssyG",
+        "76561198124857030": "vladickk"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_train",
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_t",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+        "players": {
+            "76561197995895918": "[LOCAL ADMIN] laacis",
+            "76561197982717446": "[LOCAL ADMIN] lss",
+            "76561199036276883": "[LOCAL ADMIN] DOII",
+            "76561198053473455": "[TournOps] gube",
+            "76561199188776460": "[OBS] mAa4a",
+            "76561198367886994": "[REMOTE ADMIN] mAa4a"      
+          }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+        "mp_spec_swapplayersides": "1",
+        "tv_delay": "30",
+        "tv_delay1": "30",
+        "hostname": "Optibet E-sporta virslīga | FINĀLS | R1M1",
+        "mp_friendlyfire": "1"
+      }
+  }
+  
