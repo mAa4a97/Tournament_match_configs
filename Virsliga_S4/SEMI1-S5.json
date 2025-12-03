@@ -45,8 +45,8 @@
     "players_per_team": 5,
     "cvars": {
         "mp_spec_swapplayersides": "1",
-        "tv_delay": "0",
-        "tv_delay1": "0",
+        "tv_delay": "20",
+        "tv_delay1": "20",
         "hostname": "Optibet E-sporta virslīga | Pirmais pusfināls | R1M1",
         "mp_friendlyfire": "1"
       }
