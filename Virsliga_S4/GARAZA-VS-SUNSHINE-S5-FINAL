@@ -1,0 +1,55 @@
+{
+    "matchid": 4,
+    "team1": {
+      "name": "sunshine!",
+      "players": {
+        "76561198413662725": "sniegs",
+        "76561198155822642": "saito",
+        "76561198185252631": "El3eee",
+        "76561198080338124": "jwxp",
+        "76561199690545664": "emiri",
+        "76561199598014418": "xan"
+      }
+    },
+    "team2": {
+      "name": "GARAZA",
+      "players": {
+        "76561198220590348": "aleksisdd",
+        "76561198283732332": "devilli",
+        "76561198143823553": "hold",
+        "76561198348969263": "emzijs",
+        "76561198201587051": "OXFROG"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_nuke",
+      "de_train",
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_t",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+        "players": {
+            "76561197995895918": "[LOCAL ADMIN] laacis",
+            "76561197982717446": "[LOCAL ADMIN] lss",
+            "76561199036276883": "[LOCAL ADMIN] DOII",
+            "76561198053473455": "[TournOps] gube",
+            "76561199188776460": "[OBS] mAa4a",
+            "76561198367886994": "[REMOTE ADMIN] mAa4a"      
+          }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+        "mp_spec_swapplayersides": "1",
+        "tv_delay": "30",
+        "tv_delay1": "30",
+        "hostname": "E-sporta 1. līga | LIELAIS FINĀLS | R1M1",
+        "mp_friendlyfire": "1"
+      }
+  }
+  
