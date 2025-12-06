@@ -1,5 +1,5 @@
 {
-    "matchid": 4,
+    "matchid": 10001,
     "team1": {
       "name": "sunshine!",
       "players": {
@@ -34,21 +34,21 @@
     ],
     "spectators": {
         "players": {
-            "76561197995895918": "[LOCAL ADMIN] laacis",
-            "76561197982717446": "[LOCAL ADMIN] lss",
-            "76561199036276883": "[LOCAL ADMIN] DOII",
+            "76561197995895918": "[ADMIN] laacis",
+            "76561197982717446": "[ADMIN] lss",
+            "76561199036276883": "[ADMIN] DOII",
             "76561198053473455": "[TournOps] gube",
             "76561199188776460": "[OBS] mAa4a",
-            "76561198367886994": "[REMOTE ADMIN] mAa4a"      
+            "76561198367886994": "[ADMIN] mAa4a"      
           }
     },
     "clinch_series": true,
     "players_per_team": 5,
     "cvars": {
         "mp_spec_swapplayersides": "1",
-        "tv_delay": "30",
-        "tv_delay1": "30",
-        "hostname": "E-sporta 1. līga | LIELAIS FINĀLS | R1M1",
+        "tv_delay": "0",
+        "tv_delay1": "0",
+        "hostname": "E-sporta 1. līga | LIELAIS FINĀLS",
         "mp_friendlyfire": "1"
       }
   }
