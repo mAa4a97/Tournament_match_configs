@@ -11,19 +11,19 @@
       }
     },
     "team2": {
-      "name": "Exilium",
+      "name": "OlyBet SB",
       "players": {
-        "76561198165471427": "H1kari",
-        "76561199401892292": "cl0ij",
-        "76561198274639232": "bely",
-        "76561199202301825": "Cr1ssyG",
-        "76561198124857030": "vladickk"
+        "76561198057797475": "yaankz",
+        "76561198212318784": "discplex",
+        "76561198225120272": "Frip",
+        "76561198213027407": "ChipaaN",
+        "76561198273767120": "hexoq"
       }
     },
     "num_maps": 3,
     "maplist": [
-      "de_nuke",
-      "de_train",
+      "de_mirage",
+      "de_inferno",
       "de_dust2"
     ],
     "map_sides": [
