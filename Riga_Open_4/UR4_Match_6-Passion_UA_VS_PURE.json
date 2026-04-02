@@ -1,0 +1,52 @@
+{
+  "matchid": 6,
+  "team1": {
+    "name": "Passion UA",
+    "players": {
+      "76561198365118288": "try",
+      "76561198021715100": "JT",
+      "76561198410085211": "nicx",
+      "76561198845436666": "Kvem",
+      "76561198920720017": "Senzu"
+    }
+  },
+  "team2": {
+    "name": "PURE",
+    "players": {
+      "76561198201587051": "OXFROG",
+      "76561198348969263": "emzijs",
+      "76561198087870175": "maty",
+      "76561198354385893": "Sh1karee",
+      "76561198271625613": "yakuza"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_inferno",
+    "de_inferno"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #4 | Group A",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #4",
+    "stage": ""
+  },
+  "tournament": "Urban Riga #4",
+  "stage": ""
+}

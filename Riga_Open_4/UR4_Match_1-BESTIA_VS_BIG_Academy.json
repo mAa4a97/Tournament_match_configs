@@ -1,0 +1,52 @@
+{
+  "matchid": 1,
+  "team1": {
+    "name": "BESTIA",
+    "players": {
+      "76561198364207482": "timo",
+      "76561198199343350": "buda",
+      "76561198148561509": "cass1n",
+      "76561198939861318": "nacho",
+      "76561198422434044": "tomaszin"
+    }
+  },
+  "team2": {
+    "name": "BIG Academy",
+    "players": {
+      "76561198178801031": "prosus",
+      "76561198016138527": "JBOEN",
+      "76561198801448515": "tripex17",
+      "76561198888800765": "w1dow",
+      "76561199159119164": "doni"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_inferno",
+    "de_inferno"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #4 | Group B",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #4",
+    "stage": ""
+  },
+  "tournament": "Urban Riga #4",
+  "stage": ""
+}
