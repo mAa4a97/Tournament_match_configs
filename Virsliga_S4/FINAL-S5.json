@@ -1,0 +1,55 @@
+{
+    "matchid": 100003,
+    "team1": {
+      "name": "HAVENs",
+      "players": {
+        "76561198991249101": "Sqreet",
+        "76561198281028374": "imp",
+        "76561199201717350": "proxi",
+        "76561198313371437": "v1trage",
+        "76561199022747440": "danss"
+      }
+    },
+    "team2": {
+      "name": "OlyBet SB",
+      "players": {
+        "76561198057797475": "yaankz",
+        "76561198212318784": "discplex",
+        "76561198225120272": "Frip",
+        "76561198213027407": "ChipaaN",
+        "76561198273767120": "hexoq"
+      }
+    },
+    "num_maps": 3,
+    "maplist": [
+      "de_mirage",
+      "de_inferno",
+      "de_dust2"
+    ],
+    "map_sides": [
+      "team1_t",
+      "team2_ct",
+      "knife"
+    ],
+    "spectators": {
+        "players": {
+            "76561197995895918": "[ADMIN] laacis",
+            "76561197982717446": "[ADMIN] lss",
+            "76561199036276883": "[ADMIN] DOII",
+            "76561198053473455": "[TournOps] gube",
+            "76561199870724685": "[OBS] LowSkill",
+            "76561199188776460": "[OBS] mAa4a",
+            "76561198367886994": "[ADMIN] mAa4a"      
+          }
+    },
+    "clinch_series": true,
+    "players_per_team": 5,
+    "cvars": {
+        "mp_spec_swapplayersides": "1",
+        "tv_delay": "0",
+        "tv_delay1": "0",
+        "hostname": "Optibet E-sporta virslīga | FINĀLS | R2M1",
+        "mp_friendlyfire": "1"
+      }
+  }
+  
