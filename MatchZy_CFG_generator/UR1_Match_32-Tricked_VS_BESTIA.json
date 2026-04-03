@@ -1,0 +1,48 @@
+{
+  "matchid": 32,
+  "team1": {
+    "name": "Tricked",
+    "players": {
+      "76561197991000831": "IceBerg",
+      "76561198102263776": "salazar",
+      "76561198304064574": "Leakz",
+      "76561198011668639": "Boye",
+      "76561199103886088": "NickyB"
+    }
+  },
+  "team2": {
+    "name": "BESTIA",
+    "players": {
+      "76561198364207482": "timo",
+      "76561198199343350": "buda",
+      "76561198148561509": "cass1n",
+      "76561198939861318": "nacho",
+      "76561198422434044": "tomaszin"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_mirage"
+  ],
+  "map_sides": [
+    "team1_ct"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #4 | Group A",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #4",
+    "stage": ""
+  },
+  "tournament": "Urban Riga #4",
+  "stage": ""
+}
