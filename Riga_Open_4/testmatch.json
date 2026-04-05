@@ -1,0 +1,21 @@
+{
+  "matchid": 7,
+  "team1": {
+    "name": "Team Isuper",
+    "players": {
+      "78676744356767897": "Isuper"
+          }
+        },
+  "team2": {
+    "name": "Team Treneris",
+    "players": {
+      "67834565765487656" "Treneris",
+                }
+              },
+  "num_maps": 1,
+  "maplist": [
+    "de_mirage",
+     ],
+  "map_sides": [
+    "team1_ct",
+         ],
