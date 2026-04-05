@@ -1,21 +1,35 @@
 {
-  "matchid": 7,
+  "matchid": 8,
   "team1": {
-    "name": "Team Isuper",
+    "name": "Team Isupe",
     "players": {
-      "78676744356767897": "Isuper"
-          }
-        },
+      "76561198884007421": "Isuper"
+    }
+  },
   "team2": {
-    "name": "Team Treneris",
+    "name": "Team Treneri",
     "players": {
-      "67834565765487656" "Treneris",
-                }
-              },
+      "76561198367886994": "Treneris"
+    }
+  },
   "num_maps": 1,
   "maplist": [
-    "de_mirage",
-     ],
+    "de_mirage"
+  ],
   "map_sides": [
-    "team1_ct",
-         ],
+    "team1_t"
+  ],
+  "spectators": {
+    "players": {
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #4 | Group A",
+    "mp_friendlyfire": "1"
+  },
+  "tournament": "Urban Riga #4",
+  "stage": ""
+}
