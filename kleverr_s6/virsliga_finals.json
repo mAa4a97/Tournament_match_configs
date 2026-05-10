@@ -1,0 +1,50 @@
+{
+  "matchid": 1,
+  "team1": {
+    "name": "PURE",
+    "players": {
+      "76561198201587051": "OXFROG",
+      "76561198087870175": "maty",
+      "76561198348969263": "emzijs",
+      "76561198354385893": "Sh1karee",
+      "76561198271625613": "yakuza"
+    }
+  },
+  "team2": {
+    "name": "Olybet SB",
+    "players": {
+      "76561198225120272": "Frip",
+      "76561198273767120": "hexoq",
+      "76561198007542410": "PrelideN",
+      "76561198006612426": "cgk",
+      "76561198200517929": "hyskeee"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_dust2",
+    "de_nuke",
+    "de_mirage"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198367886994": "[ADMIN] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "kleverr S6 | 1 | PURE vs Olybet SB",
+    "mp_friendlyfire": "1",
+    "tournament": "kleverr S6",
+    "stage": "Finals"
+  },
+  "tournament": "kleverr S6",
+  "stage": "Finals"
+}
