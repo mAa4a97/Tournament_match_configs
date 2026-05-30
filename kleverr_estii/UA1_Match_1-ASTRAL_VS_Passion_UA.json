@@ -1,0 +1,48 @@
+{
+  "matchid": 1,
+  "team1": {
+    "name": "ASTRAL",
+    "players": {
+      "76561199305069806": "meowpop",
+      "76561198242885242": "swiz",
+      "76561198422707218": "Ray5ive",
+      "76561198379204570": "Neqy",
+      "76561198234835452": "gxx"
+    }
+  },
+  "team2": {
+    "name": "Passion UA",
+    "players": {
+      "76561198365118288": "try",
+      "76561198021715100": "JT",
+      "76561198410085211": "nicx",
+      "76561198845436666": "Kvem",
+      "76561198920720017": "Senzu"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_overpass",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "kleverr eesti | 1 | ASTRAL vs Passion UA",
+    "mp_friendlyfire": "1"
+  }
+}
