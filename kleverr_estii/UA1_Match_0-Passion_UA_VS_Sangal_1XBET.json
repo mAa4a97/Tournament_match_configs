@@ -1,0 +1,48 @@
+{
+  "matchid": 0,
+  "team1": {
+    "name": "Passion UA",
+    "players": {
+      "76561198365118288": "try",
+      "76561198021715100": "JT",
+      "76561198410085211": "nicx",
+      "76561198845436666": "Kvem",
+      "76561198920720017": "Senzu"
+    }
+  },
+  "team2": {
+    "name": "Sangal 1XBET",
+    "players": {
+      "76561198171689321": "smooya",
+      "76561198397132290": "R4DYX",
+      "76561198288540801": "Patsi",
+      "76561198251984554": "CYPHER",
+      "76561198158709510": "pr1metapz"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_nuke",
+    "de_dust2"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team1_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "kleverr estii",
+    "mp_friendlyfire": "1"
+  }
+}
