@@ -1,23 +1,23 @@
 {
-  "matchid": 1,
+  "matchid": 11,
   "team1": {
-    "name": "ASTRAL",
+    "name": "M1Z",
     "players": {
-      "76561199305069806": "meowpop",
-      "76561198242885242": "swiz",
-      "76561198422707218": "Ray5ive",
-      "76561198379204570": "Neqy",
-      "76561198234835452": "gxx"
+      "76561198325367389": "Ancient",
+      "76561199000769021": "Freesies",
+      "76561198255927687": "xezr",
+      "76561198062569560": "zteeek",
+      "76561198169903662": "Styx"
     }
   },
   "team2": {
-    "name": "Passion UA",
+    "name": "V\u00e4lgu Mihkel",
     "players": {
-      "76561198365118288": "try",
-      "76561198021715100": "JT",
-      "76561198410085211": "nicx",
-      "76561198845436666": "Kvem",
-      "76561198920720017": "Senzu"
+      "76561198126582092": "ahuzla",
+      "76561199350364898": "starmanki",
+      "76561198296714960": "Chimpanzee",
+      "76561198122075065": "XAX",
+      "76561198400055826": "Bin"
     }
   },
   "num_maps": 3,
@@ -42,7 +42,7 @@
   "players_per_team": 5,
   "cvars": {
     "mp_spec_swapplayersides": "1",
-    "hostname": "kleverr eesti | 1 | ASTRAL vs Passion UA",
+    "hostname": "kleverr eesti | 11 | M1Z vs V\u00e4lgu Mihkel",
     "mp_friendlyfire": "1"
   }
 }

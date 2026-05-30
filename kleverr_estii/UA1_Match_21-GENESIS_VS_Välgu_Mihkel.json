@@ -1,0 +1,48 @@
+{
+  "matchid": 21,
+  "team1": {
+    "name": "GENESIS",
+    "players": {
+      "76561198044158601": "Cuba",
+      "76561198238813650": "kapa",
+      "76561198244915438": "-neaQ",
+      "76561198208533464": "M4rdik",
+      "76561198006920671": "Kiriku\u00f5petaja"
+    }
+  },
+  "team2": {
+    "name": "V\u00e4lgu Mihkel",
+    "players": {
+      "76561198126582092": "ahuzla",
+      "76561199350364898": "starmanki",
+      "76561198296714960": "Chimpanzee",
+      "76561198122075065": "XAX",
+      "76561198400055826": "Bin"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_overpass",
+    "de_nuke"
+  ],
+  "map_sides": [
+    "team1_ct",
+    "team2_t",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "kleverr eesti | 21 | GENESIS vs V\u00e4lgu Mihkel",
+    "mp_friendlyfire": "1"
+  }
+}
