@@ -1,0 +1,50 @@
+{
+  "matchid": 3,
+  "team1": {
+    "name": "GAMEHARMONY",
+    "players": {
+      "76561198268313906": "P4nc4ke",
+      "76561198267709125": "Natre",
+      "76561198034298000": "uCr0",
+      "76561198169903662": "Styx",
+      "76561198063444052": "RSK"
+    }
+  },
+  "team2": {
+    "name": "Leo",
+    "players": {
+      "76561198081994299": "amster",
+      "76561198857766187": "kL1o",
+      "76561199026065461": "leen",
+      "76561198812175823": "aimy",
+      "76561199237188983": "next1me"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #5 | 3 | GAMEHARMONY vs Leo",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #5",
+    "stage": "Group A"
+  },
+  "tournament": "Riga Open #5",
+  "stage": "Group B"
+}

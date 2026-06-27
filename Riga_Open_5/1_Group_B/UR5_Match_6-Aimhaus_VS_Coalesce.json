@@ -1,0 +1,50 @@
+{
+  "matchid": 6,
+  "team1": {
+    "name": "Aimhaus",
+    "players": {
+      "76561198423866204": "silrak",
+      "76561198870256366": "flairr",
+      "76561199077249605": "nisker",
+      "76561198401119175": "blazekiNho",
+      "76561198396836822": "Yamero"
+    }
+  },
+  "team2": {
+    "name": "Coalesce",
+    "players": {
+      "76561199200796479": "onder",
+      "76561198089781588": "Fizzy",
+      "76561199131857801": "Flicky",
+      "76561199367354292": "sen1ar",
+      "76561199435370892": "D1ntrIXxX"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #5 | 6 | Aimhaus vs Coalesce",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #5",
+    "stage": "Group B"
+  },
+  "tournament": "Riga Open #5",
+  "stage": "Group B"
+}

@@ -1,0 +1,50 @@
+{
+  "matchid": 8,
+  "team1": {
+    "name": "6666",
+    "players": {
+      "76561198875746092": "dENZY",
+      "76561198262852316": "skcH",
+      "76561199204613550": "rickangel",
+      "76561199000309450": "m4d4ra",
+      "76561198329477109": "auth0ri-"
+    }
+  },
+  "team2": {
+    "name": "ASTRAL",
+    "players": {
+      "76561198379204570": "Neqy",
+      "76561198422707218": "RaY5ive",
+      "76561199305069806": "meowpop",
+      "76561198242885242": "swiz",
+      "76561198234835452": "gxx"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #5 | 8 | 6666 vs ASTRAL",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #5",
+    "stage": "Group A"
+  },
+  "tournament": "Riga Open #5",
+  "stage": "Group A"
+}

@@ -1,0 +1,50 @@
+{
+  "matchid": 10,
+  "team1": {
+    "name": "ASTRAL",
+    "players": {
+      "76561198379204570": "Neqy",
+      "76561198422707218": "RaY5ive",
+      "76561199305069806": "meowpop",
+      "76561198242885242": "swiz",
+      "76561198234835452": "gxx"
+    }
+  },
+  "team2": {
+    "name": "Esport BERG",
+    "players": {
+      "76561198165543185": "Tree60",
+      "76561198876602824": "KiMaRR",
+      "76561198323206002": "Askan",
+      "76561198138332241": "Rezst",
+      "76561198196974277": "CrePoW"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Riga Open #5 | 10 | ASTRAL vs Esport BERG",
+    "mp_friendlyfire": "1",
+    "tournament": "Riga Open #5",
+    "stage": "Group A"
+  },
+  "tournament": "Riga Open #5",
+  "stage": "Group A"
+}
