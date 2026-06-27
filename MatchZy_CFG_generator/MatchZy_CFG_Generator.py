@@ -317,7 +317,7 @@ class MatchConfigApp:
         sanitized_team1 = sanitize_filename(self.team1.get_team_name())
         sanitized_team2 = sanitize_filename(self.team2.get_team_name())
 
-        default_filename = f"UR1_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
+        default_filename = f"UR5_Match_{self.match_id.get()}-{sanitized_team1}_VS_{sanitized_team2}.json"
         save_path = filedialog.asksaveasfilename(
             defaultextension=".json",
             initialdir=last_save_dir,
