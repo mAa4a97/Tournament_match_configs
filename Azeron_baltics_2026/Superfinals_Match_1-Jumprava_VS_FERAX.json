@@ -1,0 +1,54 @@
+{
+  "matchid": 1,
+  "team1": {
+    "name": "Jumprava",
+    "players": {
+      "76561198213027407": "ChipaaN",
+      "76561198348969263": "emzijs",
+      "76561198201587051": "OXFROG",
+      "76561198006612426": "cgk",
+      "76561199201717350": "proxi"
+    }
+  },
+  "team2": {
+    "name": "FERAX",
+    "players": {
+      "76561198273767120": "hexoQ",
+      "76561198281028374": "imp",
+      "76561198338914091": "deeN",
+      "76561198350279986": "MyLastChance",
+      "76561199565423898": "reN"
+    }
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_nuke",
+    "de_mirage",
+    "de_cache"
+  ],
+  "map_sides": [
+    "team2_ct",
+    "team1_ct",
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Azeron | 1 | Jumprava vs FERAX",
+    "mp_friendlyfire": "1",
+    "tournament": "Azeron",
+    "stage": "Playoffs"
+  },
+  "tournament": "Azeron",
+  "stage": "Playoffs"
+}
