@@ -5,7 +5,7 @@ import os
 import re
 
 # Constants
-MAP_POOL = ["de_inferno", "de_mirage", "de_nuke", "de_overpass", "de_ancient", "de_dust2", "de_train"]
+MAP_POOL = ["de_inferno", "de_mirage", "de_nuke", "de_cache", "de_ancient", "de_dust2", "de_train"]
 SIDE_OPTIONS = ["team1_ct", "team1_t", "team2_ct", "team2_t", "knife"]
 DEFAULT_CVARS = {
     "mp_spec_swapplayersides": "1",
