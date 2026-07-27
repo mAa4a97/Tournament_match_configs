@@ -1,0 +1,43 @@
+{
+  "matchid": 111,
+  "team1": {
+    "name": "MOUZ NXT",
+    "players": {
+      "76561198254835598": "ay0k",
+      "76561198407480534": "Nikodeon",
+      "76561198295739416": "opdust",
+      "76561198996743020": "eSx"
+    }
+  },
+  "team2": {
+    "name": "Natus Vincere Junior",
+    "players": {
+      "76561199011739449": "Kodak",
+      "76561199175852960": "FAZERY",
+      "76561198801838386": "MahaR",
+      "76561199646264565": "yoki",
+      "76561198846994023": "skizzyee"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_mirage"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": " | 111 | MOUZ NXT vs Natus Vincere Junior",
+    "mp_friendlyfire": "1",
+    "tournament": "",
+    "stage": ""
+  },
+  "tournament": "",
+  "stage": ""
+}

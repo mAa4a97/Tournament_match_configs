@@ -1,0 +1,44 @@
+{
+  "matchid": 112,
+  "team1": {
+    "name": "BRUTE",
+    "players": {
+      "76561198308155775": "hfah",
+      "76561198084163512": "nbqq",
+      "76561198833618656": "majky",
+      "76561198201921879": "aidKiT",
+      "76561198134164683": "ZEDKO"
+    }
+  },
+  "team2": {
+    "name": "LEO",
+    "players": {
+      "76561198870499492": "Milo3k",
+      "76561198014086678": "kronkzz",
+      "76561198049580043": "DeeP",
+      "76561197994854968": "LK",
+      "76561198133970888": "didde"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_nuke"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": " | 112 | BRUTE vs LEO",
+    "mp_friendlyfire": "1",
+    "tournament": "",
+    "stage": ""
+  },
+  "tournament": "",
+  "stage": ""
+}
