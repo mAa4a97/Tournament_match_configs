@@ -1,0 +1,90 @@
+[
+    {
+        "name": "KUUSAMO.GG",
+        "tag": "KUUSAMO",
+        "players": [
+            { "steamId": "76561198337398548", "name": "epik" },
+            { "steamId": "76561198238011832", "name": "rbm" },
+            { "steamId": "76561198086407005", "name": "osku" },
+            { "steamId": "76561199063480862", "name": "Matz" },
+            { "steamId": "76561198207003739", "name": "Keksimage" }
+        ]
+    },
+    {
+        "name": "ENCE",
+        "tag": "ENCE",
+        "players": [
+            { "steamId": "76561199087398707", "name": "millert" },
+            { "steamId": "76561198452820400", "name": "Schwarz" },
+            { "steamId": "76561198377968451", "name": "teme" },
+            { "steamId": "76561198065606574", "name": "HENU" },
+            { "steamId": "76561198830373282", "name": "joeski" }
+        ]
+    },
+    {
+        "name": "HYPERSPIRIT",
+        "tag": "HYPRSPRT",
+        "players": [
+            { "steamId": "76561198161245944", "name": "Ciocardau" },
+            { "steamId": "76561198451083203", "name": "starplajerz" },
+            { "steamId": "76561198859556525", "name": "d1maje" },
+            { "steamId": "76561198100855323", "name": "Scr0b" },
+            { "steamId": "76561198003437534", "name": "Q-Q" }
+        ]
+    },
+    {
+        "name": "Sangal",
+        "tag": "Sangal",
+        "players": [
+            { "steamId": "76561198377256168", "name": "Joey" },
+            { "steamId": "76561197968389863", "name": "adamS" },
+            { "steamId": "76561198248745402", "name": "puuha" },
+            { "steamId": "76561198397132290", "name": "R4DYX" },
+            { "steamId": "76561198360682773", "name": "bnox" }
+        ]
+    },
+    {
+        "name": "IC Academy",
+        "tag": "ICac",
+        "players": [
+            { "steamId": "76561198268205273", "name": "3ippoch" },
+            { "steamId": "76561198966656353", "name": "Flierax" },
+            { "steamId": "76561199040969806", "name": "L1seYoung" },
+            { "steamId": "76561198813130822", "name": "Tamefear" },
+            { "steamId": "76561198820845612", "name": "NaYz" }
+        ]
+    },
+    {
+        "name": "HAVENs",
+        "tag": "HVN",
+        "players": [
+            { "steamId": "76561198825041984", "name": "whitezins" },
+            { "steamId": "76561198170551331", "name": "Pleb0rs" },
+            { "steamId": "76561198268932165", "name": "FABEN" },
+            { "steamId": "76561198091603329", "name": "Loodi" },
+            { "steamId": "76561199133740271", "name": "ledzh1t" }
+        ]
+    },
+    {
+        "name": "aimhaus",
+        "tag": "aimhaus",
+        "players": [
+            { "steamId": "76561198423866204", "name": "silrak" },
+            { "steamId": "76561198396836822", "name": "Yamero~" },
+            { "steamId": "76561198158877295", "name": "BRK" },
+            { "steamId": "76561198870256366", "name": "flairr" },
+            { "steamId": "76561197964249216", "name": "Ed1m" }
+        ]
+    },
+    {
+        "name": "INFURITY",
+        "tag": "INF",
+        "players": [
+            { "steamId": "76561197967697315", "name": "sirius" },
+            { "steamId": "76561198027020808", "name": "shyyne" },
+            { "steamId": "76561198173063479", "name": "CHANKY" },
+            { "steamId": "76561198440676599", "name": "AwaykeN" },
+            { "steamId": "76561198273818394", "name": "oontoma" }
+        ]
+    }
+]

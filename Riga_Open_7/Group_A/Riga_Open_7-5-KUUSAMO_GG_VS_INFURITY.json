@@ -1,0 +1,50 @@
+{
+  "matchid": 5,
+  "team1": {
+    "name": "KUUSAMO.GG",
+    "players": {
+      "76561198337398548": "epik",
+      "76561198238011832": "rbm",
+      "76561198086407005": "osku",
+      "76561198207003739": "Keksimage",
+      "76561199063480862": "Matz"
+    }
+  },
+  "team2": {
+    "name": "INFURITY",
+    "players": {
+      "76561197967697315": "sirius",
+      "76561198027020808": "shyyne",
+      "76561198173063479": "CHANKY",
+      "76561198440676599": "AwaykeN",
+      "76561198273818394": "oontoma"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #7 | 5 | KUUSAMO.GG vs INFURITY",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #7",
+    "stage": "Group A"
+  },
+  "tournament": "Urban Riga #7",
+  "stage": "Group A"
+}

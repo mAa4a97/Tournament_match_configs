@@ -1,0 +1,50 @@
+{
+  "matchid": 3,
+  "team1": {
+    "name": "KUUSAMO.GG",
+    "players": {
+      "76561198337398548": "epik",
+      "76561198238011832": "rbm",
+      "76561198086407005": "osku",
+      "76561198207003739": "Keksimage",
+      "76561199063480862": "Matz"
+    }
+  },
+  "team2": {
+    "name": "HAVENs",
+    "players": {
+      "76561198825041984": "whitezins",
+      "76561198170551331": "Pleb0rs",
+      "76561198268932165": "FABEN",
+      "76561198091603329": "Loodi",
+      "76561199133740271": "ledzh1t"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #7 | 3 | KUUSAMO.GG vs HAVENs",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #7",
+    "stage": "Group A"
+  },
+  "tournament": "Urban Riga #7",
+  "stage": "Group A"
+}

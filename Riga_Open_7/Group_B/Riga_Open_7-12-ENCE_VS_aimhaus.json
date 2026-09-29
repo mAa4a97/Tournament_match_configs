@@ -1,0 +1,50 @@
+{
+  "matchid": 12,
+  "team1": {
+    "name": "ENCE",
+    "players": {
+      "76561199087398707": "millert",
+      "76561198452820400": "Schwarz",
+      "76561198377968451": "teme",
+      "76561198065606574": "HENU",
+      "76561198830373282": "joeski"
+    }
+  },
+  "team2": {
+    "name": "aimhaus",
+    "players": {
+      "76561198423866204": "silrak",
+      "76561198396836822": "Yamero~",
+      "76561198158877295": "BRK",
+      "76561198870256366": "flairr",
+      "76561197964249216": "Ed1m"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #7 | 12 | ENCE vs aimhaus",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #7",
+    "stage": "Group B"
+  },
+  "tournament": "Urban Riga #7",
+  "stage": "Group B"
+}

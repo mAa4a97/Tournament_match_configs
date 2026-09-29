@@ -1,0 +1,50 @@
+{
+  "matchid": 4,
+  "team1": {
+    "name": "IC Academy",
+    "players": {
+      "76561198268205273": "3ippoch",
+      "76561198966656353": "Flierax",
+      "76561199040969806": "L1seYoung",
+      "76561198813130822": "Tamefear",
+      "76561198820845612": "NaYz"
+    }
+  },
+  "team2": {
+    "name": "INFURITY",
+    "players": {
+      "76561197967697315": "sirius",
+      "76561198027020808": "shyyne",
+      "76561198173063479": "CHANKY",
+      "76561198440676599": "AwaykeN",
+      "76561198273818394": "oontoma"
+    }
+  },
+  "num_maps": 1,
+  "maplist": [
+    "de_inferno"
+  ],
+  "map_sides": [
+    "knife"
+  ],
+  "spectators": {
+    "players": {
+      "76561198053473455": "[UC] SMM",
+      "76561199188776460": "[OBS] mAa4a",
+      "76561198367886994": "[TournOps] mAa4a",
+      "76561199062184217": "[OBS] elluzkaa",
+      "76561198421102481": "[ADMIN] fl1pzzy"
+    }
+  },
+  "clinch_series": true,
+  "players_per_team": "5",
+  "cvars": {
+    "mp_spec_swapplayersides": "1",
+    "hostname": "Urban Riga #7 | 4 | IC Academy vs INFURITY",
+    "mp_friendlyfire": "1",
+    "tournament": "Urban Riga #7",
+    "stage": "Group A"
+  },
+  "tournament": "Urban Riga #7",
+  "stage": "Group A"
+}
